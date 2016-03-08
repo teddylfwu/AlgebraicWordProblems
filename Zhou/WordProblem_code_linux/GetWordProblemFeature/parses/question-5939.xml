@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Together</word>
+            <lemma>together</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Jane</word>
+            <lemma>Jane</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Jill</word>
+            <lemma>Jill</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>have</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>32</word>
+            <lemma>32</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>32.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>dolls</word>
+            <lemma>doll</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Together)) (, ,) (NP (NNP Jane) (CC and) (NNP Jill)) (VP (VBP have) (NP (CD 32) (NNS dolls))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">have</governor>
+            <dependent idx="1">Together</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">have</governor>
+            <dependent idx="3">Jane</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">Jane</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">Jane</governor>
+            <dependent idx="5">Jill</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">dolls</governor>
+            <dependent idx="7">32</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">have</governor>
+            <dependent idx="8">dolls</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">have</governor>
+            <dependent idx="1">Together</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">have</governor>
+            <dependent idx="3">Jane</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">Jane</governor>
+            <dependent idx="5">Jill</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">dolls</governor>
+            <dependent idx="7">32</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">have</governor>
+            <dependent idx="8">dolls</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">have</governor>
+            <dependent idx="1">Together</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">have</governor>
+            <dependent idx="3">Jane</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">Jane</governor>
+            <dependent idx="5">Jill</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">have</governor>
+            <dependent idx="5">Jill</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">dolls</governor>
+            <dependent idx="7">32</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">have</governor>
+            <dependent idx="8">dolls</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Jill</word>
+            <lemma>Jill</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>6</word>
+            <lemma>6</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>6.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>dolls</word>
+            <lemma>doll</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Jane</word>
+            <lemma>Jane</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>does</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Jill)) (VP (VBZ has) (NP (NP (CD 6) (JJR more) (NNS dolls)) (SBAR (IN than) (S (NP (NNP Jane)) (VP (VBZ does)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">has</governor>
+            <dependent idx="1">Jill</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dolls</governor>
+            <dependent idx="3">6</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">dolls</governor>
+            <dependent idx="4">more</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">has</governor>
+            <dependent idx="5">dolls</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">does</governor>
+            <dependent idx="6">than</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">does</governor>
+            <dependent idx="7">Jane</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">dolls</governor>
+            <dependent idx="8">does</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">has</governor>
+            <dependent idx="1">Jill</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dolls</governor>
+            <dependent idx="3">6</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">dolls</governor>
+            <dependent idx="4">more</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">has</governor>
+            <dependent idx="5">dolls</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">does</governor>
+            <dependent idx="6">than</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">does</governor>
+            <dependent idx="7">Jane</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">dolls</governor>
+            <dependent idx="8">does</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">has</governor>
+            <dependent idx="1">Jill</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dolls</governor>
+            <dependent idx="3">6</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">dolls</governor>
+            <dependent idx="4">more</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">has</governor>
+            <dependent idx="5">dolls</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">does</governor>
+            <dependent idx="6">than</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">does</governor>
+            <dependent idx="7">Jane</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">dolls</governor>
+            <dependent idx="8">does</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>dolls</word>
+            <lemma>doll</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>does</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Jane</word>
+            <lemma>Jane</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>have</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS dolls)) (SQ (VBZ does) (NP (NNP Jane)) (VP (VB have))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">dolls</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">have</governor>
+            <dependent idx="3">dolls</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">have</governor>
+            <dependent idx="4">does</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">have</governor>
+            <dependent idx="5">Jane</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">dolls</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">have</governor>
+            <dependent idx="3">dolls</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">have</governor>
+            <dependent idx="4">does</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">have</governor>
+            <dependent idx="5">Jane</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">dolls</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">have</governor>
+            <dependent idx="3">dolls</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">have</governor>
+            <dependent idx="4">does</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">have</governor>
+            <dependent idx="5">Jane</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>does</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Jill</word>
+            <lemma>Jill</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>have</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHADJP (WRB How) (JJ many)) (SQ (VBZ does) (NP (NNP Jill)) (VP (VB have))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">have</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">have</governor>
+            <dependent idx="3">does</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">have</governor>
+            <dependent idx="4">Jill</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">have</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">have</governor>
+            <dependent idx="3">does</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">have</governor>
+            <dependent idx="4">Jill</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">have</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">have</governor>
+            <dependent idx="3">does</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">have</governor>
+            <dependent idx="4">Jill</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>Jane</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>Jane</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>Jane</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>Jill</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Jill</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>Jill</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

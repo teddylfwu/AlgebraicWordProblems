@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Best</word>
+            <lemma>best</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Rentals</word>
+            <lemma>rental</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>charges</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>daily</word>
+            <lemma>daily</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>SET</NER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="SET">P1D</Timex>
+          </token>
+          <token id="6">
+            <word>fee</word>
+            <lemma>fee</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>plus</word>
+            <lemma>plus</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>mileage</word>
+            <lemma>mileage</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>fee</word>
+            <lemma>fee</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>renting</word>
+            <lemma>rent</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>its</word>
+            <lemma>its</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJS Best) (NNS Rentals)) (VP (VBZ charges) (NP (NP (DT a) (JJ daily) (NN fee)) (PP (CC plus) (NP (DT a) (NN mileage) (NN fee)))) (PP (IN for) (S (VP (VBG renting) (NP (PRP$ its) (NNS cars)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">charges</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Rentals</governor>
+            <dependent idx="1">Best</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">charges</governor>
+            <dependent idx="2">Rentals</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">fee</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">fee</governor>
+            <dependent idx="5">daily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">charges</governor>
+            <dependent idx="6">fee</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">fee</governor>
+            <dependent idx="7">plus</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">fee</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">fee</governor>
+            <dependent idx="9">mileage</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">plus</governor>
+            <dependent idx="10">fee</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">charges</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="11">for</governor>
+            <dependent idx="12">renting</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">cars</governor>
+            <dependent idx="13">its</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">renting</governor>
+            <dependent idx="14">cars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">charges</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Rentals</governor>
+            <dependent idx="1">Best</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">charges</governor>
+            <dependent idx="2">Rentals</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">fee</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">fee</governor>
+            <dependent idx="5">daily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">charges</governor>
+            <dependent idx="6">fee</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">fee</governor>
+            <dependent idx="7">plus</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">fee</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">fee</governor>
+            <dependent idx="9">mileage</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">plus</governor>
+            <dependent idx="10">fee</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="3">charges</governor>
+            <dependent idx="12">renting</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">cars</governor>
+            <dependent idx="13">its</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">renting</governor>
+            <dependent idx="14">cars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">charges</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">Rentals</governor>
+            <dependent idx="1">Best</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">charges</governor>
+            <dependent idx="2">Rentals</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">fee</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">fee</governor>
+            <dependent idx="5">daily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">charges</governor>
+            <dependent idx="6">fee</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">fee</governor>
+            <dependent idx="7">plus</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">fee</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">fee</governor>
+            <dependent idx="9">mileage</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">plus</governor>
+            <dependent idx="10">fee</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="3">charges</governor>
+            <dependent idx="12">renting</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">cars</governor>
+            <dependent idx="13">its</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">renting</governor>
+            <dependent idx="14">cars</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Barney</word>
+            <lemma>Barney</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>charged</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>69</word>
+            <lemma>69</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$69.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$69.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>3</word>
+            <lemma>3</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P3D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">P3D</Timex>
+          </token>
+          <token id="8">
+            <word>days</word>
+            <lemma>day</lemma>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P3D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">P3D</Timex>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>300</word>
+            <lemma>300</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>300.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>miles</word>
+            <lemma>mile</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>while</word>
+            <lemma>while</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Mary</word>
+            <lemma>Mary</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>charged</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>123</word>
+            <lemma>123</lemma>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$123.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>165</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$123.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>169</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>5</word>
+            <lemma>5</lemma>
+            <CharacterOffsetBegin>170</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P5D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DURATION">P5D</Timex>
+          </token>
+          <token id="21">
+            <word>days</word>
+            <lemma>day</lemma>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P5D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DURATION">P5D</Timex>
+          </token>
+          <token id="22">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>180</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>600</word>
+            <lemma>600</lemma>
+            <CharacterOffsetBegin>181</CharacterOffsetBegin>
+            <CharacterOffsetEnd>184</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>600.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>miles</word>
+            <lemma>mile</lemma>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>190</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>191</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Barney)) (VP (VBD was) (VP (VBN charged) (NP (NP (CD 69) (NNS dollars)) (PP (IN for) (NP (NP (CD 3) (NNS days)) (CC and) (NP (CD 300) (NNS miles))))) (, ,) (SBAR (IN while) (S (NP (NNP Mary)) (VP (VBD was) (VP (VBN charged) (NP (NP (CD 123) (NNS dollars)) (PP (IN for) (NP (NP (CD 5) (NNS days)) (CC and) (NP (CD 600) (NNS miles))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">charged</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">charged</governor>
+            <dependent idx="1">Barney</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">charged</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dollars</governor>
+            <dependent idx="4">69</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">charged</governor>
+            <dependent idx="5">dollars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">dollars</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">days</governor>
+            <dependent idx="7">3</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">for</governor>
+            <dependent idx="8">days</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">days</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="11">miles</governor>
+            <dependent idx="10">300</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">days</governor>
+            <dependent idx="11">miles</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">charged</governor>
+            <dependent idx="13">while</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">charged</governor>
+            <dependent idx="14">Mary</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">charged</governor>
+            <dependent idx="15">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">charged</governor>
+            <dependent idx="16">charged</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">dollars</governor>
+            <dependent idx="17">123</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">charged</governor>
+            <dependent idx="18">dollars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">dollars</governor>
+            <dependent idx="19">for</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="21">days</governor>
+            <dependent idx="20">5</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">for</governor>
+            <dependent idx="21">days</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="21">days</governor>
+            <dependent idx="22">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="24">miles</governor>
+            <dependent idx="23">600</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="21">days</governor>
+            <dependent idx="24">miles</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">charged</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">charged</governor>
+            <dependent idx="1">Barney</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">charged</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dollars</governor>
+            <dependent idx="4">69</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">charged</governor>
+            <dependent idx="5">dollars</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">days</governor>
+            <dependent idx="7">3</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">dollars</governor>
+            <dependent idx="8">days</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="11">miles</governor>
+            <dependent idx="10">300</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">days</governor>
+            <dependent idx="11">miles</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">charged</governor>
+            <dependent idx="13">while</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">charged</governor>
+            <dependent idx="14">Mary</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">charged</governor>
+            <dependent idx="15">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">charged</governor>
+            <dependent idx="16">charged</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">dollars</governor>
+            <dependent idx="17">123</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">charged</governor>
+            <dependent idx="18">dollars</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="21">days</governor>
+            <dependent idx="20">5</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="18">dollars</governor>
+            <dependent idx="21">days</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="24">miles</governor>
+            <dependent idx="23">600</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="21">days</governor>
+            <dependent idx="24">miles</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">charged</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">charged</governor>
+            <dependent idx="1">Barney</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">charged</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dollars</governor>
+            <dependent idx="4">69</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">charged</governor>
+            <dependent idx="5">dollars</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">days</governor>
+            <dependent idx="7">3</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">dollars</governor>
+            <dependent idx="8">days</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="11">miles</governor>
+            <dependent idx="10">300</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">dollars</governor>
+            <dependent idx="11">miles</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">days</governor>
+            <dependent idx="11">miles</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">charged</governor>
+            <dependent idx="13">while</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">charged</governor>
+            <dependent idx="14">Mary</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">charged</governor>
+            <dependent idx="15">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">charged</governor>
+            <dependent idx="16">charged</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">dollars</governor>
+            <dependent idx="17">123</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">charged</governor>
+            <dependent idx="18">dollars</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="21">days</governor>
+            <dependent idx="20">5</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="18">dollars</governor>
+            <dependent idx="21">days</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="24">miles</governor>
+            <dependent idx="23">600</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="18">dollars</governor>
+            <dependent idx="24">miles</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="21">days</governor>
+            <dependent idx="24">miles</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>192</CharacterOffsetBegin>
+            <CharacterOffsetEnd>196</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>197</CharacterOffsetBegin>
+            <CharacterOffsetEnd>200</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>daily</word>
+            <lemma>daily</lemma>
+            <CharacterOffsetBegin>201</CharacterOffsetBegin>
+            <CharacterOffsetEnd>206</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>SET</NER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t4" type="SET">P1D</Timex>
+          </token>
+          <token id="4">
+            <word>fee</word>
+            <lemma>fee</lemma>
+            <CharacterOffsetBegin>207</CharacterOffsetBegin>
+            <CharacterOffsetEnd>210</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>211</CharacterOffsetBegin>
+            <CharacterOffsetEnd>214</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>215</CharacterOffsetBegin>
+            <CharacterOffsetEnd>219</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>223</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>mileage</word>
+            <lemma>mileage</lemma>
+            <CharacterOffsetBegin>224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>231</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>charge</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>238</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>238</CharacterOffsetBegin>
+            <CharacterOffsetEnd>239</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SQ (VP (VP (VB Find) (NP (DT the) (JJ daily) (NN fee))) (CC and) (VP (VB find) (NP (DT the) (NN mileage) (NN charge)))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">fee</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">fee</governor>
+            <dependent idx="3">daily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="4">fee</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Find</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="1">Find</governor>
+            <dependent idx="6">find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">charge</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">charge</governor>
+            <dependent idx="8">mileage</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">find</governor>
+            <dependent idx="9">charge</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">fee</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">fee</governor>
+            <dependent idx="3">daily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="4">fee</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Find</governor>
+            <dependent idx="6">find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">charge</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">charge</governor>
+            <dependent idx="8">mileage</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">find</governor>
+            <dependent idx="9">charge</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">fee</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">fee</governor>
+            <dependent idx="3">daily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="4">fee</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Find</governor>
+            <dependent idx="6">find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">charge</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">charge</governor>
+            <dependent idx="8">mileage</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">find</governor>
+            <dependent idx="9">charge</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>4</start>
+          <end>7</end>
+          <head>6</head>
+          <text>a daily fee</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>13</start>
+          <end>14</end>
+          <head>13</head>
+          <text>its</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>2</start>
+          <end>5</end>
+          <head>4</head>
+          <text>the daily fee</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Anne</word>
+            <lemma>Anne</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Nancy</word>
+            <lemma>Nancy</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>use</word>
+            <lemma>use</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>metal</word>
+            <lemma>metal</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>alloy</word>
+            <lemma>alloy</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>24.9</word>
+            <lemma>24.9</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%24.9</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%24.9</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>copper</word>
+            <lemma>copper</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>make</word>
+            <lemma>make</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>jewelry</word>
+            <lemma>jewelry</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Anne) (CC and) (NNP Nancy)) (VP (VBP use) (NP (NP (DT a) (NN metal) (NN alloy)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (NP (ADJP (CD 24.9) (NN %)) (NN copper) (S (VP (TO to) (VP (VB make) (NP (NN jewelry))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">use</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">use</governor>
+            <dependent idx="1">Anne</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Anne</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="1">Anne</governor>
+            <dependent idx="3">Nancy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">alloy</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">alloy</governor>
+            <dependent idx="6">metal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">use</governor>
+            <dependent idx="7">alloy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">copper</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">copper</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="11">%</governor>
+            <dependent idx="10">24.9</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">copper</governor>
+            <dependent idx="11">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">alloy</governor>
+            <dependent idx="12">copper</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">make</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="infmod">
+            <governor idx="12">copper</governor>
+            <dependent idx="14">make</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">make</governor>
+            <dependent idx="15">jewelry</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">use</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">use</governor>
+            <dependent idx="1">Anne</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Anne</governor>
+            <dependent idx="3">Nancy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">alloy</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">alloy</governor>
+            <dependent idx="6">metal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">use</governor>
+            <dependent idx="7">alloy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">copper</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">copper</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="11">%</governor>
+            <dependent idx="10">24.9</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">copper</governor>
+            <dependent idx="11">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">alloy</governor>
+            <dependent idx="12">copper</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">make</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="infmod">
+            <governor idx="12">copper</governor>
+            <dependent idx="14">make</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">make</governor>
+            <dependent idx="15">jewelry</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">use</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">use</governor>
+            <dependent idx="1">Anne</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Anne</governor>
+            <dependent idx="3">Nancy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">use</governor>
+            <dependent idx="3">Nancy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">alloy</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">alloy</governor>
+            <dependent idx="6">metal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">use</governor>
+            <dependent idx="7">alloy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">copper</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">copper</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="11">%</governor>
+            <dependent idx="10">24.9</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">copper</governor>
+            <dependent idx="11">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">alloy</governor>
+            <dependent idx="12">copper</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">make</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="infmod">
+            <governor idx="12">copper</governor>
+            <dependent idx="14">make</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">make</governor>
+            <dependent idx="15">jewelry</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>ounces</word>
+            <lemma>ounce</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>20</word>
+            <lemma>20</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%20.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%20.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>alloy</word>
+            <lemma>alloy</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>must</word>
+            <lemma>must</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>mixed</word>
+            <lemma>mix</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>27</word>
+            <lemma>27</lemma>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%27.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%27.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>alloy</word>
+            <lemma>alloy</lemma>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>form</word>
+            <lemma>form</lemma>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>100</word>
+            <lemma>100</lemma>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>100.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>ounces</word>
+            <lemma>ounce</lemma>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>desired</word>
+            <lemma>desire</lemma>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>169</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>alloy</word>
+            <lemma>alloy</lemma>
+            <CharacterOffsetBegin>170</CharacterOffsetBegin>
+            <CharacterOffsetEnd>175</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHNP (WHADJP (WRB How) (JJ many)) (NNS ounces)) (PP (IN of) (NP (DT a) (ADJP (CD 20) (NN %)) (NN alloy)))) (SQ (VP (MD must) (VP (VB be) (ADJP (VBN mixed) (PP (IN with) (NP (DT a) (ADJP (CD 27) (NN %)) (NN alloy) (S (VP (TO to) (VP (VB form) (NP (NP (CD 100) (NNS ounces)) (PP (IN of) (NP (DT the) (VBN desired) (NN alloy))))))))))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">mixed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">ounces</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">mixed</governor>
+            <dependent idx="3">ounces</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">ounces</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">alloy</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="7">%</governor>
+            <dependent idx="6">20</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">alloy</governor>
+            <dependent idx="7">%</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="8">alloy</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">mixed</governor>
+            <dependent idx="9">must</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">mixed</governor>
+            <dependent idx="10">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">mixed</governor>
+            <dependent idx="12">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">alloy</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">%</governor>
+            <dependent idx="14">27</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">alloy</governor>
+            <dependent idx="15">%</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">with</governor>
+            <dependent idx="16">alloy</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">form</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="infmod">
+            <governor idx="16">alloy</governor>
+            <dependent idx="18">form</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">ounces</governor>
+            <dependent idx="19">100</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">form</governor>
+            <dependent idx="20">ounces</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">ounces</governor>
+            <dependent idx="21">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">alloy</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">alloy</governor>
+            <dependent idx="23">desired</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">of</governor>
+            <dependent idx="24">alloy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">mixed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">ounces</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">mixed</governor>
+            <dependent idx="3">ounces</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">alloy</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="7">%</governor>
+            <dependent idx="6">20</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">alloy</governor>
+            <dependent idx="7">%</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">ounces</governor>
+            <dependent idx="8">alloy</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">mixed</governor>
+            <dependent idx="9">must</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">mixed</governor>
+            <dependent idx="10">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">alloy</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">%</governor>
+            <dependent idx="14">27</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">alloy</governor>
+            <dependent idx="15">%</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="11">mixed</governor>
+            <dependent idx="16">alloy</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">form</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="infmod">
+            <governor idx="16">alloy</governor>
+            <dependent idx="18">form</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">ounces</governor>
+            <dependent idx="19">100</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">form</governor>
+            <dependent idx="20">ounces</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">alloy</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">alloy</governor>
+            <dependent idx="23">desired</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">ounces</governor>
+            <dependent idx="24">alloy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">mixed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">ounces</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">mixed</governor>
+            <dependent idx="3">ounces</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">alloy</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="7">%</governor>
+            <dependent idx="6">20</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">alloy</governor>
+            <dependent idx="7">%</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">ounces</governor>
+            <dependent idx="8">alloy</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">mixed</governor>
+            <dependent idx="9">must</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">mixed</governor>
+            <dependent idx="10">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">alloy</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">%</governor>
+            <dependent idx="14">27</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">alloy</governor>
+            <dependent idx="15">%</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="11">mixed</governor>
+            <dependent idx="16">alloy</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">form</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="infmod">
+            <governor idx="16">alloy</governor>
+            <dependent idx="18">form</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">ounces</governor>
+            <dependent idx="19">100</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">form</governor>
+            <dependent idx="20">ounces</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">alloy</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">alloy</governor>
+            <dependent idx="23">desired</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">ounces</governor>
+            <dependent idx="24">alloy</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>weight</word>
+            <lemma>weight</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>80</word>
+            <lemma>80</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>80.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>pounds</word>
+            <lemma>pound</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>stretches</word>
+            <lemma>stretch</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>spring</word>
+            <lemma>spring</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-SP</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-SP</Timex>
+          </token>
+          <token id="9">
+            <word>4.5</word>
+            <lemma>4.5</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>4.5</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>inches</word>
+            <lemma>inch</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT A) (NN weight)) (PP (IN of) (NP (CD 80) (NNS pounds)))) (VP (VBZ stretches) (NP (NP (DT a) (NN spring)) (NP (CD 4.5) (NNS inches)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">stretches</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">weight</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">stretches</governor>
+            <dependent idx="2">weight</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">weight</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">pounds</governor>
+            <dependent idx="4">80</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="5">pounds</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">spring</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">stretches</governor>
+            <dependent idx="8">spring</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">inches</governor>
+            <dependent idx="9">4.5</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">spring</governor>
+            <dependent idx="10">inches</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">stretches</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">weight</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">stretches</governor>
+            <dependent idx="2">weight</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">pounds</governor>
+            <dependent idx="4">80</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">weight</governor>
+            <dependent idx="5">pounds</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">spring</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">stretches</governor>
+            <dependent idx="8">spring</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">inches</governor>
+            <dependent idx="9">4.5</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">spring</governor>
+            <dependent idx="10">inches</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">stretches</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">weight</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">stretches</governor>
+            <dependent idx="2">weight</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">pounds</governor>
+            <dependent idx="4">80</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">weight</governor>
+            <dependent idx="5">pounds</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">spring</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">stretches</governor>
+            <dependent idx="8">spring</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">inches</governor>
+            <dependent idx="9">4.5</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">spring</governor>
+            <dependent idx="10">inches</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>far</word>
+            <lemma>far</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>will</word>
+            <lemma>will</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>weight</word>
+            <lemma>weight</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>125</word>
+            <lemma>125</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>125.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>pounds</word>
+            <lemma>pound</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>stretch</word>
+            <lemma>stretch</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>spring</word>
+            <lemma>spring</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-SP</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">XXXX-SP</Timex>
+          </token>
+          <token id="12">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHADVP (WRB How) (RB far)) (SQ (MD will) (NP (DT a) (NN weight)) (VP (ADVP (IN of) (NP (CD 125) (NNS pounds))) (VBP stretch) (NP (DT the) (NN spring)))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">stretch</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">far</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">stretch</governor>
+            <dependent idx="2">far</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">stretch</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">weight</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">stretch</governor>
+            <dependent idx="5">weight</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">stretch</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">pounds</governor>
+            <dependent idx="7">125</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="8">pounds</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">spring</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="9">stretch</governor>
+            <dependent idx="11">spring</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">stretch</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">far</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">stretch</governor>
+            <dependent idx="2">far</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">stretch</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">weight</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">stretch</governor>
+            <dependent idx="5">weight</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">stretch</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">pounds</governor>
+            <dependent idx="7">125</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="8">pounds</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">spring</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="9">stretch</governor>
+            <dependent idx="11">spring</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">stretch</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">far</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">stretch</governor>
+            <dependent idx="2">far</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">stretch</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">weight</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">stretch</governor>
+            <dependent idx="5">weight</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">stretch</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">pounds</governor>
+            <dependent idx="7">125</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="8">pounds</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">spring</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="9">stretch</governor>
+            <dependent idx="11">spring</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>11</end>
+          <head>8</head>
+          <text>a spring 4.5 inches</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>10</start>
+          <end>12</end>
+          <head>11</head>
+          <text>the spring</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

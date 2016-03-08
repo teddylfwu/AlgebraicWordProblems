@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Admission</word>
+            <lemma>admission</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>tickets</word>
+            <lemma>ticket</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>theater</word>
+            <lemma>theater</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>were</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>60</word>
+            <lemma>60</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.6</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>cents</word>
+            <lemma>cent</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.6</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>adults</word>
+            <lemma>adult</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>25</word>
+            <lemma>25</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.25</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>cents</word>
+            <lemma>cent</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.25</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>children</word>
+            <lemma>child</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NN Admission) (NNS tickets)) (PP (TO to) (NP (DT a) (NN theater)))) (VP (VBD were) (NP (NP (NP (CD 60) (NNS cents)) (PP (IN for) (NP (NNS adults)))) (CC and) (NP (NP (CD 25) (NNS cents)) (PP (IN for) (NP (NNS children)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">cents</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">tickets</governor>
+            <dependent idx="1">Admission</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">cents</governor>
+            <dependent idx="2">tickets</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">tickets</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">theater</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">to</governor>
+            <dependent idx="5">theater</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">cents</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">cents</governor>
+            <dependent idx="7">60</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">cents</governor>
+            <dependent idx="9">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">for</governor>
+            <dependent idx="10">adults</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">cents</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">cents</governor>
+            <dependent idx="12">25</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">cents</governor>
+            <dependent idx="13">cents</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">cents</governor>
+            <dependent idx="14">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">for</governor>
+            <dependent idx="15">children</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">cents</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">tickets</governor>
+            <dependent idx="1">Admission</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">cents</governor>
+            <dependent idx="2">tickets</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">theater</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">tickets</governor>
+            <dependent idx="5">theater</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">cents</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">cents</governor>
+            <dependent idx="7">60</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="8">cents</governor>
+            <dependent idx="10">adults</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">cents</governor>
+            <dependent idx="12">25</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">cents</governor>
+            <dependent idx="13">cents</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="13">cents</governor>
+            <dependent idx="15">children</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">cents</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">tickets</governor>
+            <dependent idx="1">Admission</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">cents</governor>
+            <dependent idx="2">tickets</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">theater</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">tickets</governor>
+            <dependent idx="5">theater</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">cents</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">cents</governor>
+            <dependent idx="7">60</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="8">cents</governor>
+            <dependent idx="10">adults</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">cents</governor>
+            <dependent idx="12">25</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">cents</governor>
+            <dependent idx="13">cents</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="13">cents</governor>
+            <dependent idx="15">children</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Receipts</word>
+            <lemma>Receipts</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="4">
+            <word>day</word>
+            <lemma>day</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="5">
+            <word>showed</word>
+            <lemma>show</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>280</word>
+            <lemma>280</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>280.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>persons</word>
+            <lemma>person</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>attended</word>
+            <lemma>attend</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>140</word>
+            <lemma>140</lemma>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$140.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>152</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$140.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>153</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>collected</word>
+            <lemma>collect</lemma>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNPS Receipts)) (PP (IN for) (NP (DT the) (NN day)))) (VP (VBD showed) (SBAR (IN that) (S (S (NP (CD 280) (NNS persons)) (VP (VBD attended))) (CC and) (S (NP (CD 140) (NNS dollars)) (VP (VBD was) (VP (VBN collected))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">showed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">showed</governor>
+            <dependent idx="1">Receipts</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Receipts</governor>
+            <dependent idx="2">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">day</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">for</governor>
+            <dependent idx="4">day</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">attended</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">persons</governor>
+            <dependent idx="7">280</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">attended</governor>
+            <dependent idx="8">persons</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">showed</governor>
+            <dependent idx="9">attended</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">attended</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">dollars</governor>
+            <dependent idx="11">140</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">collected</governor>
+            <dependent idx="12">dollars</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">collected</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">attended</governor>
+            <dependent idx="14">collected</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">showed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">showed</governor>
+            <dependent idx="1">Receipts</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">day</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="1">Receipts</governor>
+            <dependent idx="4">day</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">attended</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">persons</governor>
+            <dependent idx="7">280</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">attended</governor>
+            <dependent idx="8">persons</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">showed</governor>
+            <dependent idx="9">attended</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">dollars</governor>
+            <dependent idx="11">140</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">collected</governor>
+            <dependent idx="12">dollars</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">collected</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">attended</governor>
+            <dependent idx="14">collected</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">showed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">showed</governor>
+            <dependent idx="1">Receipts</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">day</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="1">Receipts</governor>
+            <dependent idx="4">day</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">attended</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">persons</governor>
+            <dependent idx="7">280</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">attended</governor>
+            <dependent idx="8">persons</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">showed</governor>
+            <dependent idx="9">attended</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">dollars</governor>
+            <dependent idx="11">140</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">collected</governor>
+            <dependent idx="12">dollars</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">collected</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">showed</governor>
+            <dependent idx="14">collected</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">attended</governor>
+            <dependent idx="14">collected</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>children</word>
+            <lemma>child</lemma>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>attended</word>
+            <lemma>attend</lemma>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>199</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>day</word>
+            <lemma>day</lemma>
+            <CharacterOffsetBegin>200</CharacterOffsetBegin>
+            <CharacterOffsetEnd>203</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">P1D</Timex>
+          </token>
+          <token id="7">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS children)) (SQ (VP (VBD attended) (NP-TMP (DT that) (NN day)))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">attended</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">children</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">attended</governor>
+            <dependent idx="3">children</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">day</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">attended</governor>
+            <dependent idx="6">day</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">attended</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">children</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">attended</governor>
+            <dependent idx="3">children</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">day</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">attended</governor>
+            <dependent idx="6">day</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">attended</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">children</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">attended</governor>
+            <dependent idx="3">children</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">day</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">attended</governor>
+            <dependent idx="6">day</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>3</start>
+          <end>5</end>
+          <head>4</head>
+          <text>the day</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>5</start>
+          <end>7</end>
+          <head>6</head>
+          <text>that day</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>There</word>
+            <lemma>there</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>EX</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>were</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>42</word>
+            <lemma>42</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>42.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>people</word>
+            <lemma>people</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (EX There)) (VP (VBD were) (NP (CD 42) (NNS people))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">were</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">people</governor>
+            <dependent idx="3">42</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">were</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">were</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">people</governor>
+            <dependent idx="3">42</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">were</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">were</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">people</governor>
+            <dependent idx="3">42</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">were</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>There</word>
+            <lemma>there</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>EX</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>were</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>twice</word>
+            <lemma>twice</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>children</word>
+            <lemma>child</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>adults</word>
+            <lemma>adult</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (EX There)) (VP (VBD were) (NP (QP (RB twice) (RB as) (JJ many)) (NNS children)) (PP (IN as) (NP (NNS adults)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">were</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">many</governor>
+            <dependent idx="3">twice</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">many</governor>
+            <dependent idx="4">as</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">children</governor>
+            <dependent idx="5">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">were</governor>
+            <dependent idx="6">children</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">were</governor>
+            <dependent idx="7">as</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">as</governor>
+            <dependent idx="8">adults</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">were</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">many</governor>
+            <dependent idx="3">twice</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">many</governor>
+            <dependent idx="4">as</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">children</governor>
+            <dependent idx="5">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">were</governor>
+            <dependent idx="6">children</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">were</governor>
+            <dependent idx="8">adults</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">were</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">many</governor>
+            <dependent idx="3">twice</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">many</governor>
+            <dependent idx="4">as</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">children</governor>
+            <dependent idx="5">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">were</governor>
+            <dependent idx="6">children</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">were</governor>
+            <dependent idx="8">adults</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>children</word>
+            <lemma>child</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>attended</word>
+            <lemma>attend</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS children)) (SQ (VP (VBN attended))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">attended</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">children</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">attended</governor>
+            <dependent idx="3">children</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">attended</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">children</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">attended</governor>
+            <dependent idx="3">children</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">attended</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">children</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">attended</governor>
+            <dependent idx="3">children</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

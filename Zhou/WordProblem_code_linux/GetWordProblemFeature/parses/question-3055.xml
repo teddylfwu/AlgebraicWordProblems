@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Twice</word>
+            <lemma>twice</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>equals</word>
+            <lemma>equal</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>25</word>
+            <lemma>25</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>25.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>less</word>
+            <lemma>less</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>triple</word>
+            <lemma>triple</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>same</word>
+            <lemma>same</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Twice)) (NP (DT a) (NN number)) (VP (VBZ equals) (NP (NP (QP (CD 25) (JJR less))) (PP (IN than) (NP (RB triple) (DT the) (JJ same) (NN number))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">equals</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">equals</governor>
+            <dependent idx="1">Twice</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">equals</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">equals</governor>
+            <dependent idx="5">25</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">25</governor>
+            <dependent idx="6">less</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">25</governor>
+            <dependent idx="7">than</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">number</governor>
+            <dependent idx="8">triple</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">number</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">number</governor>
+            <dependent idx="10">same</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">than</governor>
+            <dependent idx="11">number</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">equals</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">equals</governor>
+            <dependent idx="1">Twice</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">equals</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">equals</governor>
+            <dependent idx="5">25</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">25</governor>
+            <dependent idx="6">less</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">number</governor>
+            <dependent idx="8">triple</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">number</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">number</governor>
+            <dependent idx="10">same</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="5">25</governor>
+            <dependent idx="11">number</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">equals</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">equals</governor>
+            <dependent idx="1">Twice</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">equals</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">equals</governor>
+            <dependent idx="5">25</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">25</governor>
+            <dependent idx="6">less</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">number</governor>
+            <dependent idx="8">triple</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">number</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">number</governor>
+            <dependent idx="10">same</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="5">25</governor>
+            <dependent idx="11">number</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>What</word>
+            <lemma>what</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WP What)) (VBZ is) (NP (DT the) (NN number)) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">What</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="1">What</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">number</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">What</governor>
+            <dependent idx="4">number</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">What</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="1">What</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">number</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">What</governor>
+            <dependent idx="4">number</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">What</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="1">What</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">number</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">What</governor>
+            <dependent idx="4">number</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>2</start>
+          <end>4</end>
+          <head>3</head>
+          <text>a number</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>3</start>
+          <end>5</end>
+          <head>4</head>
+          <text>the number</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

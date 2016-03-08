@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>tallest</word>
+            <lemma>tallest</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>player</word>
+            <lemma>player</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>basketball</word>
+            <lemma>basketball</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>team</word>
+            <lemma>team</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>77.75</word>
+            <lemma>77.75</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>77.75</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>inches</word>
+            <lemma>inch</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>tall</word>
+            <lemma>tall</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (JJS tallest) (NN player)) (PP (IN on) (NP (DT the) (NN basketball) (NN team)))) (VP (VBZ is) (ADJP (NP (CD 77.75) (NNS inches)) (JJ tall))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">tall</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">player</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">player</governor>
+            <dependent idx="2">tallest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">tall</governor>
+            <dependent idx="3">player</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">player</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">team</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">team</governor>
+            <dependent idx="6">basketball</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">on</governor>
+            <dependent idx="7">team</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">tall</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">inches</governor>
+            <dependent idx="9">77.75</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">tall</governor>
+            <dependent idx="10">inches</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">tall</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">player</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">player</governor>
+            <dependent idx="2">tallest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">tall</governor>
+            <dependent idx="3">player</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">team</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">team</governor>
+            <dependent idx="6">basketball</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="3">player</governor>
+            <dependent idx="7">team</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">tall</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">inches</governor>
+            <dependent idx="9">77.75</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">tall</governor>
+            <dependent idx="10">inches</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">tall</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">player</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">player</governor>
+            <dependent idx="2">tallest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">tall</governor>
+            <dependent idx="3">player</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">team</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">team</governor>
+            <dependent idx="6">basketball</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="3">player</governor>
+            <dependent idx="7">team</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">tall</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">inches</governor>
+            <dependent idx="9">77.75</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">tall</governor>
+            <dependent idx="10">inches</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>This</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>9.5</word>
+            <lemma>9.5</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>9.5</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>inches</word>
+            <lemma>inch</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>taller</word>
+            <lemma>taller</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>shortest</word>
+            <lemma>shortest</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>player</word>
+            <lemma>player</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT This)) (VP (VBZ is) (NP (NP (NP (CD 9.5) (NNS inches)) (JJR taller)) (PP (IN than) (NP (DT the) (JJS shortest) (NN player))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">taller</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">taller</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">taller</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">inches</governor>
+            <dependent idx="3">9.5</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">taller</governor>
+            <dependent idx="4">inches</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">taller</governor>
+            <dependent idx="6">than</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">player</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">player</governor>
+            <dependent idx="8">shortest</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">than</governor>
+            <dependent idx="9">player</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">taller</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">taller</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">taller</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">inches</governor>
+            <dependent idx="3">9.5</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">taller</governor>
+            <dependent idx="4">inches</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">player</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">player</governor>
+            <dependent idx="8">shortest</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="5">taller</governor>
+            <dependent idx="9">player</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">taller</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">taller</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">taller</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">inches</governor>
+            <dependent idx="3">9.5</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">taller</governor>
+            <dependent idx="4">inches</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">player</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">player</governor>
+            <dependent idx="8">shortest</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="5">taller</governor>
+            <dependent idx="9">player</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>tall</word>
+            <lemma>tall</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>shortest</word>
+            <lemma>shortest</lemma>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>player</word>
+            <lemma>player</lemma>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>152</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>inches</word>
+            <lemma>inch</lemma>
+            <CharacterOffsetBegin>153</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHADJP (WRB How) (JJ tall)) (SQ (VBZ is) (NP (DT the) (JJS shortest) (NP (NP (NN player)) (, ,) (PP (IN in) (NP (NNS inches)))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">tall</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">is</governor>
+            <dependent idx="2">tall</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">player</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">player</governor>
+            <dependent idx="5">shortest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="6">player</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">player</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="9">inches</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">tall</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">is</governor>
+            <dependent idx="2">tall</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">player</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">player</governor>
+            <dependent idx="5">shortest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="6">player</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">player</governor>
+            <dependent idx="9">inches</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">tall</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">is</governor>
+            <dependent idx="2">tall</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">player</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">player</governor>
+            <dependent idx="5">shortest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="6">player</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">player</governor>
+            <dependent idx="9">inches</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>3</start>
+          <end>5</end>
+          <head>4</head>
+          <text>9.5 inches</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>inches</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>3</sentence>
+          <start>4</start>
+          <end>10</end>
+          <head>6</head>
+          <text>the shortest player , in inches</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>7</start>
+          <end>10</end>
+          <head>9</head>
+          <text>the shortest player</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

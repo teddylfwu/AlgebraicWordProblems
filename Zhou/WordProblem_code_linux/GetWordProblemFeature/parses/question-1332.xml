@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>new</word>
+            <lemma>new</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>parking</word>
+            <lemma>parking</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>lot</word>
+            <lemma>lot</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>spaces</word>
+            <lemma>space</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>450</word>
+            <lemma>450</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>450.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT A) (JJ new) (NN parking) (NN lot)) (VP (VBZ has) (NP (NP (NNS spaces)) (PP (IN for) (NP (CD 450) (NNS cars))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">lot</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">lot</governor>
+            <dependent idx="2">new</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">lot</governor>
+            <dependent idx="3">parking</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">has</governor>
+            <dependent idx="4">lot</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">has</governor>
+            <dependent idx="6">spaces</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">spaces</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="9">cars</governor>
+            <dependent idx="8">450</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">for</governor>
+            <dependent idx="9">cars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">lot</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">lot</governor>
+            <dependent idx="2">new</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">lot</governor>
+            <dependent idx="3">parking</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">has</governor>
+            <dependent idx="4">lot</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">has</governor>
+            <dependent idx="6">spaces</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="9">cars</governor>
+            <dependent idx="8">450</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">spaces</governor>
+            <dependent idx="9">cars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">lot</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">lot</governor>
+            <dependent idx="2">new</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">lot</governor>
+            <dependent idx="3">parking</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">has</governor>
+            <dependent idx="4">lot</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">has</governor>
+            <dependent idx="6">spaces</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="9">cars</governor>
+            <dependent idx="8">450</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">spaces</governor>
+            <dependent idx="9">cars</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>ratio</word>
+            <lemma>ratio</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>spaces</word>
+            <lemma>space</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>full</word>
+            <lemma>full</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>sized</word>
+            <lemma>size</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>compact</word>
+            <lemma>compact</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>11</word>
+            <lemma>11</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>11.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>4</word>
+            <lemma>4</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>4.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN ratio)) (PP (IN of) (NP (NP (NNS spaces)) (PP (IN for) (NP (NP (JJ full) (VBN sized) (NNS cars)) (PP (TO to) (NP (JJ compact) (NNS cars)))))))) (VP (VBZ is) (NP (QP (CD 11) (TO to) (CD 4)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">4</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">ratio</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">4</governor>
+            <dependent idx="2">ratio</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">ratio</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="4">spaces</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">spaces</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cars</governor>
+            <dependent idx="6">full</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cars</governor>
+            <dependent idx="7">sized</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">for</governor>
+            <dependent idx="8">cars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">cars</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">cars</governor>
+            <dependent idx="10">compact</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">to</governor>
+            <dependent idx="11">cars</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">4</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">4</governor>
+            <dependent idx="13">11</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">4</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">4</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">ratio</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">4</governor>
+            <dependent idx="2">ratio</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">ratio</governor>
+            <dependent idx="4">spaces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cars</governor>
+            <dependent idx="6">full</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cars</governor>
+            <dependent idx="7">sized</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">spaces</governor>
+            <dependent idx="8">cars</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">cars</governor>
+            <dependent idx="10">compact</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="8">cars</governor>
+            <dependent idx="11">cars</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">4</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">4</governor>
+            <dependent idx="13">11</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">4</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">4</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">ratio</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">4</governor>
+            <dependent idx="2">ratio</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">ratio</governor>
+            <dependent idx="4">spaces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cars</governor>
+            <dependent idx="6">full</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cars</governor>
+            <dependent idx="7">sized</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">spaces</governor>
+            <dependent idx="8">cars</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">cars</governor>
+            <dependent idx="10">compact</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="8">cars</governor>
+            <dependent idx="11">cars</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">4</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">4</governor>
+            <dependent idx="13">11</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">4</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>spaces</word>
+            <lemma>space</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>full-sized</word>
+            <lemma>full-sized</lemma>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS spaces)) (SQ (VBP are) (PP (IN for) (NP (JJ full-sized) (NNS cars)))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">spaces</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">are</governor>
+            <dependent idx="3">spaces</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">are</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">cars</governor>
+            <dependent idx="6">full-sized</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">for</governor>
+            <dependent idx="7">cars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">spaces</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">are</governor>
+            <dependent idx="3">spaces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">cars</governor>
+            <dependent idx="6">full-sized</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">are</governor>
+            <dependent idx="7">cars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">spaces</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">are</governor>
+            <dependent idx="3">spaces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">cars</governor>
+            <dependent idx="6">full-sized</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">are</governor>
+            <dependent idx="7">cars</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>spaces</word>
+            <lemma>space</lemma>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>175</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>compact</word>
+            <lemma>compact</lemma>
+            <CharacterOffsetBegin>176</CharacterOffsetBegin>
+            <CharacterOffsetEnd>183</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>184</CharacterOffsetBegin>
+            <CharacterOffsetEnd>188</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>188</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS spaces)) (SQ (VBP are) (PP (IN for) (NP (JJ compact) (NNS cars)))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">spaces</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">are</governor>
+            <dependent idx="3">spaces</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">are</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">cars</governor>
+            <dependent idx="6">compact</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">for</governor>
+            <dependent idx="7">cars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">spaces</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">are</governor>
+            <dependent idx="3">spaces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">cars</governor>
+            <dependent idx="6">compact</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">are</governor>
+            <dependent idx="7">cars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">spaces</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">are</governor>
+            <dependent idx="3">spaces</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">cars</governor>
+            <dependent idx="6">compact</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">are</governor>
+            <dependent idx="7">cars</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>13</start>
+          <end>16</end>
+          <head>15</head>
+          <text>11 to 4</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>1</start>
+          <end>12</end>
+          <head>2</head>
+          <text>The ratio of spaces for full sized cars to compact cars</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>10</start>
+          <end>12</end>
+          <head>11</head>
+          <text>compact cars</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>6</start>
+          <end>8</end>
+          <head>7</head>
+          <text>compact cars</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

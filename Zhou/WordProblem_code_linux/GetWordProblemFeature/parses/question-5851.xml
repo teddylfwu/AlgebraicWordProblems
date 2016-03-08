@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>0.6667</word>
+            <lemma>0.6667</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>0.6667</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>increased</word>
+            <lemma>increase</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>0.75</word>
+            <lemma>0.75</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>0.75</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>1.6667</word>
+            <lemma>1.6667</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>1.6667</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>what</word>
+            <lemma>what</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (CD 0.6667)) (PP (IN of) (NP (NP (DT a) (NN number)) (VP (VBN increased) (PP (IN by) (NP (CD 0.75))))))) (VP (VBZ is) (NP (NP (CD 1.6667)) (, ,) (SBAR (WHNP (WP what)) (S (VP (VBZ is) (NP (DT the) (NN number))))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">1.6667</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">1.6667</governor>
+            <dependent idx="1">0.6667</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">0.6667</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">number</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">of</governor>
+            <dependent idx="4">number</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="4">number</governor>
+            <dependent idx="5">increased</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">increased</governor>
+            <dependent idx="6">by</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">by</governor>
+            <dependent idx="7">0.75</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">1.6667</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">number</governor>
+            <dependent idx="11">what</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">number</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">number</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="9">1.6667</governor>
+            <dependent idx="14">number</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">1.6667</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">1.6667</governor>
+            <dependent idx="1">0.6667</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">number</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">0.6667</governor>
+            <dependent idx="4">number</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="4">number</governor>
+            <dependent idx="5">increased</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="5">increased</governor>
+            <dependent idx="7">0.75</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">1.6667</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">number</governor>
+            <dependent idx="11">what</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">number</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">number</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="9">1.6667</governor>
+            <dependent idx="14">number</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">1.6667</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">1.6667</governor>
+            <dependent idx="1">0.6667</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">number</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">0.6667</governor>
+            <dependent idx="4">number</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="4">number</governor>
+            <dependent idx="5">increased</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="5">increased</governor>
+            <dependent idx="7">0.75</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">1.6667</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">number</governor>
+            <dependent idx="11">what</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">number</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">number</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="9">1.6667</governor>
+            <dependent idx="14">number</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>8</end>
+          <head>1</head>
+          <text>0.6667 of a number increased by 0.75</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>15</end>
+          <head>9</head>
+          <text>1.6667 , what is the number</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>1.6667</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>8</end>
+          <head>4</head>
+          <text>a number increased by 0.75</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>13</start>
+          <end>15</end>
+          <head>14</head>
+          <text>the number</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Johnson</word>
+            <lemma>Johnson</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Farm</word>
+            <lemma>Farm</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>500</word>
+            <lemma>500</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>500.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>acres</word>
+            <lemma>acre</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>land</word>
+            <lemma>land</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>allotted</word>
+            <lemma>allot</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>cultivating</word>
+            <lemma>cultivate</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>corn</word>
+            <lemma>corn</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>wheat</word>
+            <lemma>wheat</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Johnson) (NNP Farm)) (VP (VBZ has) (NP (NP (CD 500) (NNS acres)) (PP (IN of) (NP (NP (NN land)) (VP (VBN allotted) (PP (IN for) (S (VP (VBG cultivating) (NP (NN corn) (CC and) (NN wheat)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Farm</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Farm</governor>
+            <dependent idx="2">Johnson</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">Farm</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">acres</governor>
+            <dependent idx="5">500</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="6">acres</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">acres</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="8">land</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="8">land</governor>
+            <dependent idx="9">allotted</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">allotted</governor>
+            <dependent idx="10">for</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="10">for</governor>
+            <dependent idx="11">cultivating</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">cultivating</governor>
+            <dependent idx="12">corn</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">corn</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">corn</governor>
+            <dependent idx="14">wheat</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Farm</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Farm</governor>
+            <dependent idx="2">Johnson</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">Farm</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">acres</governor>
+            <dependent idx="5">500</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="6">acres</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">acres</governor>
+            <dependent idx="8">land</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="8">land</governor>
+            <dependent idx="9">allotted</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="9">allotted</governor>
+            <dependent idx="11">cultivating</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">cultivating</governor>
+            <dependent idx="12">corn</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">corn</governor>
+            <dependent idx="14">wheat</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Farm</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Farm</governor>
+            <dependent idx="2">Johnson</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">Farm</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">acres</governor>
+            <dependent idx="5">500</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="6">acres</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">acres</governor>
+            <dependent idx="8">land</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="8">land</governor>
+            <dependent idx="9">allotted</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="9">allotted</governor>
+            <dependent idx="11">cultivating</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">cultivating</governor>
+            <dependent idx="12">corn</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">cultivating</governor>
+            <dependent idx="14">wheat</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">corn</governor>
+            <dependent idx="14">wheat</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>cost</word>
+            <lemma>cost</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>cultivating</word>
+            <lemma>cultivate</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>corn</word>
+            <lemma>corn</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>wheat</word>
+            <lemma>wheat</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>42</word>
+            <lemma>42</lemma>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$42.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$42.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>corn</word>
+            <lemma>corn</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>30</word>
+            <lemma>30</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$30.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$30.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>wheat</word>
+            <lemma>wheat</lemma>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN cost)) (PP (IN of) (S (VP (VBG cultivating) (NP (NN corn) (CC and) (NN wheat)))))) (VP (VBZ is) (NP (NP (NP (CD 42) (NNS dollars)) (PP (IN for) (NP (NN corn)))) (CC and) (NP (NP (CD 30) (NNS dollars)) (PP (IN for) (NP (NN wheat)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">dollars</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">cost</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">dollars</governor>
+            <dependent idx="2">cost</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">cost</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="3">of</governor>
+            <dependent idx="4">cultivating</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">cultivating</governor>
+            <dependent idx="5">corn</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">corn</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">corn</governor>
+            <dependent idx="7">wheat</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">dollars</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">dollars</governor>
+            <dependent idx="9">42</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">dollars</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">for</governor>
+            <dependent idx="12">corn</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">dollars</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">dollars</governor>
+            <dependent idx="14">30</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="10">dollars</governor>
+            <dependent idx="15">dollars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">dollars</governor>
+            <dependent idx="16">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">for</governor>
+            <dependent idx="17">wheat</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">dollars</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">cost</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">dollars</governor>
+            <dependent idx="2">cost</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="2">cost</governor>
+            <dependent idx="4">cultivating</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">cultivating</governor>
+            <dependent idx="5">corn</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">corn</governor>
+            <dependent idx="7">wheat</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">dollars</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">dollars</governor>
+            <dependent idx="9">42</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="10">dollars</governor>
+            <dependent idx="12">corn</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">dollars</governor>
+            <dependent idx="14">30</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">dollars</governor>
+            <dependent idx="15">dollars</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">dollars</governor>
+            <dependent idx="17">wheat</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">dollars</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">cost</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">dollars</governor>
+            <dependent idx="2">cost</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="2">cost</governor>
+            <dependent idx="4">cultivating</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">cultivating</governor>
+            <dependent idx="5">corn</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">cultivating</governor>
+            <dependent idx="7">wheat</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">corn</governor>
+            <dependent idx="7">wheat</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">dollars</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">dollars</governor>
+            <dependent idx="9">42</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="10">dollars</governor>
+            <dependent idx="12">corn</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">dollars</governor>
+            <dependent idx="14">30</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">dollars</governor>
+            <dependent idx="15">dollars</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">dollars</governor>
+            <dependent idx="17">wheat</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Mr.Johnson</word>
+            <lemma>mr.johnson</lemma>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>18,600</word>
+            <lemma>18,600</lemma>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$18600.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$18600.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>available</word>
+            <lemma>available</lemma>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>207</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>208</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>cultivating</word>
+            <lemma>cultivate</lemma>
+            <CharacterOffsetBegin>212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>223</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>these</word>
+            <lemma>these</lemma>
+            <CharacterOffsetBegin>224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>229</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>crops</word>
+            <lemma>crop</lemma>
+            <CharacterOffsetBegin>230</CharacterOffsetBegin>
+            <CharacterOffsetEnd>235</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>236</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NN Mr.Johnson)) (VP (VBZ has) (NP (NP (CD 18,600) (NNS dollars)) (ADJP (JJ available) (PP (IN for) (S (VP (VBG cultivating) (NP (DT these) (NNS crops)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">has</governor>
+            <dependent idx="1">Mr.Johnson</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">dollars</governor>
+            <dependent idx="3">18,600</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">has</governor>
+            <dependent idx="4">dollars</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">dollars</governor>
+            <dependent idx="5">available</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">available</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="6">for</governor>
+            <dependent idx="7">cultivating</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">crops</governor>
+            <dependent idx="8">these</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">cultivating</governor>
+            <dependent idx="9">crops</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">has</governor>
+            <dependent idx="1">Mr.Johnson</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">dollars</governor>
+            <dependent idx="3">18,600</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">has</governor>
+            <dependent idx="4">dollars</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">dollars</governor>
+            <dependent idx="5">available</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="5">available</governor>
+            <dependent idx="7">cultivating</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">crops</governor>
+            <dependent idx="8">these</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">cultivating</governor>
+            <dependent idx="9">crops</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">has</governor>
+            <dependent idx="1">Mr.Johnson</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">dollars</governor>
+            <dependent idx="3">18,600</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">has</governor>
+            <dependent idx="4">dollars</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">dollars</governor>
+            <dependent idx="5">available</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="5">available</governor>
+            <dependent idx="7">cultivating</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">crops</governor>
+            <dependent idx="8">these</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">cultivating</governor>
+            <dependent idx="9">crops</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>If</word>
+            <lemma>if</lemma>
+            <CharacterOffsetBegin>237</CharacterOffsetBegin>
+            <CharacterOffsetEnd>239</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>240</CharacterOffsetBegin>
+            <CharacterOffsetEnd>242</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>used</word>
+            <lemma>use</lemma>
+            <CharacterOffsetBegin>243</CharacterOffsetBegin>
+            <CharacterOffsetEnd>247</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>all</word>
+            <lemma>all</lemma>
+            <CharacterOffsetBegin>248</CharacterOffsetBegin>
+            <CharacterOffsetEnd>251</CharacterOffsetEnd>
+            <POS>PDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>252</CharacterOffsetBegin>
+            <CharacterOffsetEnd>255</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>land</word>
+            <lemma>land</lemma>
+            <CharacterOffsetBegin>256</CharacterOffsetBegin>
+            <CharacterOffsetEnd>260</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>261</CharacterOffsetBegin>
+            <CharacterOffsetEnd>264</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>entire</word>
+            <lemma>entire</lemma>
+            <CharacterOffsetBegin>265</CharacterOffsetBegin>
+            <CharacterOffsetEnd>271</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>budget</word>
+            <lemma>budget</lemma>
+            <CharacterOffsetBegin>272</CharacterOffsetBegin>
+            <CharacterOffsetEnd>278</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>279</CharacterOffsetBegin>
+            <CharacterOffsetEnd>280</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>how</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>281</CharacterOffsetBegin>
+            <CharacterOffsetEnd>284</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>285</CharacterOffsetBegin>
+            <CharacterOffsetEnd>289</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>acres</word>
+            <lemma>acre</lemma>
+            <CharacterOffsetBegin>290</CharacterOffsetBegin>
+            <CharacterOffsetEnd>295</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>296</CharacterOffsetBegin>
+            <CharacterOffsetEnd>298</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>corn</word>
+            <lemma>corn</lemma>
+            <CharacterOffsetBegin>299</CharacterOffsetBegin>
+            <CharacterOffsetEnd>303</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>304</CharacterOffsetBegin>
+            <CharacterOffsetEnd>307</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>how</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>308</CharacterOffsetBegin>
+            <CharacterOffsetEnd>311</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>312</CharacterOffsetBegin>
+            <CharacterOffsetEnd>316</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>acres</word>
+            <lemma>acre</lemma>
+            <CharacterOffsetBegin>317</CharacterOffsetBegin>
+            <CharacterOffsetEnd>322</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>323</CharacterOffsetBegin>
+            <CharacterOffsetEnd>325</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>wheat</word>
+            <lemma>wheat</lemma>
+            <CharacterOffsetBegin>326</CharacterOffsetBegin>
+            <CharacterOffsetEnd>331</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>should</word>
+            <lemma>should</lemma>
+            <CharacterOffsetBegin>332</CharacterOffsetBegin>
+            <CharacterOffsetEnd>338</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>339</CharacterOffsetBegin>
+            <CharacterOffsetEnd>341</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>plant</word>
+            <lemma>plant</lemma>
+            <CharacterOffsetBegin>342</CharacterOffsetBegin>
+            <CharacterOffsetEnd>347</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>347</CharacterOffsetBegin>
+            <CharacterOffsetEnd>348</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (SBAR (IN If) (S (NP (PRP he)) (VP (VBD used) (NP (PDT all) (NP (DT the) (NN land)) (CC and) (NP (JJ entire) (NN budget)))))) (, ,) (WHNP (WHNP (WHADJP (WRB how) (JJ many)) (NNS acres)) (PP (IN of) (NP (NP (NP (NP (NN corn)) (CC and) (ADJP (WHADVP (WRB how)) (JJ many))) (NNS acres)) (PP (IN of) (NP (NN wheat)))))) (SQ (MD should) (NP (PRP he)) (VP (VB plant))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">plant</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">used</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">used</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="24">plant</governor>
+            <dependent idx="3">used</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">land</governor>
+            <dependent idx="4">all</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">land</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">used</governor>
+            <dependent idx="6">land</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">land</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">budget</governor>
+            <dependent idx="8">entire</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">land</governor>
+            <dependent idx="9">budget</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">many</governor>
+            <dependent idx="11">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">acres</governor>
+            <dependent idx="12">many</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">plant</governor>
+            <dependent idx="13">acres</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">acres</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">acres</governor>
+            <dependent idx="15">corn</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">corn</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">many</governor>
+            <dependent idx="17">how</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="15">corn</governor>
+            <dependent idx="18">many</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">of</governor>
+            <dependent idx="19">acres</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">acres</governor>
+            <dependent idx="20">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">of</governor>
+            <dependent idx="21">wheat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">plant</governor>
+            <dependent idx="22">should</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">plant</governor>
+            <dependent idx="23">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">plant</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">used</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">used</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="24">plant</governor>
+            <dependent idx="3">used</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">land</governor>
+            <dependent idx="4">all</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">land</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">used</governor>
+            <dependent idx="6">land</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">budget</governor>
+            <dependent idx="8">entire</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">land</governor>
+            <dependent idx="9">budget</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">many</governor>
+            <dependent idx="11">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">acres</governor>
+            <dependent idx="12">many</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">plant</governor>
+            <dependent idx="13">acres</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">acres</governor>
+            <dependent idx="15">corn</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">many</governor>
+            <dependent idx="17">how</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">corn</governor>
+            <dependent idx="18">many</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">acres</governor>
+            <dependent idx="19">acres</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="19">acres</governor>
+            <dependent idx="21">wheat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">plant</governor>
+            <dependent idx="22">should</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">plant</governor>
+            <dependent idx="23">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">plant</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">used</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">used</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="24">plant</governor>
+            <dependent idx="3">used</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">land</governor>
+            <dependent idx="4">all</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">land</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">used</governor>
+            <dependent idx="6">land</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">budget</governor>
+            <dependent idx="8">entire</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">used</governor>
+            <dependent idx="9">budget</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">land</governor>
+            <dependent idx="9">budget</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">many</governor>
+            <dependent idx="11">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">acres</governor>
+            <dependent idx="12">many</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">plant</governor>
+            <dependent idx="13">acres</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">acres</governor>
+            <dependent idx="15">corn</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">many</governor>
+            <dependent idx="17">how</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">corn</governor>
+            <dependent idx="18">many</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">acres</governor>
+            <dependent idx="18">many</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">acres</governor>
+            <dependent idx="19">acres</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="19">acres</governor>
+            <dependent idx="21">wheat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">plant</governor>
+            <dependent idx="22">should</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">plant</governor>
+            <dependent idx="23">he</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>4</sentence>
+          <start>5</start>
+          <end>7</end>
+          <head>6</head>
+          <text>the land</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>15</end>
+          <head>8</head>
+          <text>land allotted for cultivating corn and wheat</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>12</start>
+          <end>15</end>
+          <head>12</head>
+          <text>corn and wheat</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>5</start>
+          <end>8</end>
+          <head>5</head>
+          <text>corn and wheat</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>4</sentence>
+          <start>2</start>
+          <end>3</end>
+          <head>2</head>
+          <text>he</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>23</start>
+          <end>24</end>
+          <head>23</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

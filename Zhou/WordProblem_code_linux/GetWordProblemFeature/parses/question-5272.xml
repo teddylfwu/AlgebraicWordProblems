@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>10</word>
+            <lemma>10</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>10.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>less</word>
+            <lemma>less</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>0.6667</word>
+            <lemma>0.6667</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&lt;0.6667</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>0.25</word>
+            <lemma>0.25</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>0.25</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VB Find) (NP (DT a) (NN number)) (SBAR (IN so) (IN that) (S (NP (NP (NP (CD 10)) (NP (QP (XS (JJR less) (IN than)) (CD 0.6667)))) (NP (DT the) (NN number))) (VP (VBZ is) (NP (NP (CD 0.25)) (NP (DT the) (NN number))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">0.25</governor>
+            <dependent idx="4">so</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">0.25</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">0.25</governor>
+            <dependent idx="6">10</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="8">than</governor>
+            <dependent idx="7">less</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="9">0.6667</governor>
+            <dependent idx="8">than</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">10</governor>
+            <dependent idx="9">0.6667</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">number</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">10</governor>
+            <dependent idx="11">number</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">0.25</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="1">Find</governor>
+            <dependent idx="13">0.25</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">number</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">0.25</governor>
+            <dependent idx="15">number</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">0.25</governor>
+            <dependent idx="4">so</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">0.25</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">0.25</governor>
+            <dependent idx="6">10</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="8">than</governor>
+            <dependent idx="7">less</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="9">0.6667</governor>
+            <dependent idx="8">than</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">10</governor>
+            <dependent idx="9">0.6667</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">number</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">10</governor>
+            <dependent idx="11">number</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">0.25</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="1">Find</governor>
+            <dependent idx="13">0.25</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">number</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">0.25</governor>
+            <dependent idx="15">number</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">0.25</governor>
+            <dependent idx="4">so</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">0.25</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">0.25</governor>
+            <dependent idx="6">10</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="8">than</governor>
+            <dependent idx="7">less</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="9">0.6667</governor>
+            <dependent idx="8">than</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">10</governor>
+            <dependent idx="9">0.6667</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">number</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">10</governor>
+            <dependent idx="11">number</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">0.25</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="1">Find</governor>
+            <dependent idx="13">0.25</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">number</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">0.25</governor>
+            <dependent idx="15">number</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>2</start>
+          <end>4</end>
+          <head>3</head>
+          <text>a number</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>10</start>
+          <end>12</end>
+          <head>11</head>
+          <text>the number</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>14</start>
+          <end>16</end>
+          <head>15</head>
+          <text>the number</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>6</start>
+          <end>12</end>
+          <head>6</head>
+          <text>10 less than 0.6667 the number</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>13</start>
+          <end>16</end>
+          <head>13</head>
+          <text>0.25 the number</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

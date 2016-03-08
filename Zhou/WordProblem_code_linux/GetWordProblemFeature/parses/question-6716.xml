@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>milliliters</word>
+            <lemma>milliliter</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>10</word>
+            <lemma>10</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%10.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%10.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>HCL</word>
+            <lemma>hcl</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>solution</word>
+            <lemma>solution</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>should</word>
+            <lemma>should</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>combined</word>
+            <lemma>combine</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>60</word>
+            <lemma>60</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%60.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%60.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>HCL</word>
+            <lemma>hcl</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>solution</word>
+            <lemma>solution</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>order</word>
+            <lemma>order</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>get</word>
+            <lemma>get</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>50</word>
+            <lemma>50</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>50.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>milliliters</word>
+            <lemma>milliliter</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>30</word>
+            <lemma>30</lemma>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%30.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%30.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>HCL</word>
+            <lemma>hcl</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="30">
+            <word>solution</word>
+            <lemma>solution</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NP (NP (NNS milliliters)) (PP (IN of) (NP (DT a) (ADJP (CD 10) (NN %)) (NN HCL) (NN solution))))) (SQ (VP (MD should) (VP (VB be) (VP (VBN combined) (PP (IN with) (NP (NP (DT a) (ADJP (CD 60) (NN %)) (NN HCL) (NN solution)) (PP (IN in) (NP (NN order))))) (S (VP (TO to) (VP (VB get) (NP (NP (CD 50) (NNS milliliters)) (PP (IN of) (NP (DT a) (ADJP (CD 30) (NN %)) (NN HCL) (NN solution))))))))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">combined</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">milliliters</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">combined</governor>
+            <dependent idx="3">milliliters</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">milliliters</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">solution</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="7">%</governor>
+            <dependent idx="6">10</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">solution</governor>
+            <dependent idx="7">%</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">solution</governor>
+            <dependent idx="8">HCL</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="9">solution</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">combined</governor>
+            <dependent idx="10">should</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">combined</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">combined</governor>
+            <dependent idx="13">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">solution</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">%</governor>
+            <dependent idx="15">60</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">solution</governor>
+            <dependent idx="16">%</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">solution</governor>
+            <dependent idx="17">HCL</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">with</governor>
+            <dependent idx="18">solution</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">solution</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">in</governor>
+            <dependent idx="20">order</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">get</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">combined</governor>
+            <dependent idx="22">get</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="24">milliliters</governor>
+            <dependent idx="23">50</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">get</governor>
+            <dependent idx="24">milliliters</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="24">milliliters</governor>
+            <dependent idx="25">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">solution</governor>
+            <dependent idx="26">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="28">%</governor>
+            <dependent idx="27">30</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="30">solution</governor>
+            <dependent idx="28">%</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">solution</governor>
+            <dependent idx="29">HCL</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="25">of</governor>
+            <dependent idx="30">solution</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">combined</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">milliliters</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">combined</governor>
+            <dependent idx="3">milliliters</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">solution</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="7">%</governor>
+            <dependent idx="6">10</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">solution</governor>
+            <dependent idx="7">%</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">solution</governor>
+            <dependent idx="8">HCL</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">milliliters</governor>
+            <dependent idx="9">solution</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">combined</governor>
+            <dependent idx="10">should</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">combined</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">solution</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">%</governor>
+            <dependent idx="15">60</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">solution</governor>
+            <dependent idx="16">%</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">solution</governor>
+            <dependent idx="17">HCL</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="12">combined</governor>
+            <dependent idx="18">solution</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">solution</governor>
+            <dependent idx="20">order</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">get</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">combined</governor>
+            <dependent idx="22">get</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="24">milliliters</governor>
+            <dependent idx="23">50</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">get</governor>
+            <dependent idx="24">milliliters</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">solution</governor>
+            <dependent idx="26">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="28">%</governor>
+            <dependent idx="27">30</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="30">solution</governor>
+            <dependent idx="28">%</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">solution</governor>
+            <dependent idx="29">HCL</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="24">milliliters</governor>
+            <dependent idx="30">solution</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">combined</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">milliliters</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">combined</governor>
+            <dependent idx="3">milliliters</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">solution</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="7">%</governor>
+            <dependent idx="6">10</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">solution</governor>
+            <dependent idx="7">%</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">solution</governor>
+            <dependent idx="8">HCL</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">milliliters</governor>
+            <dependent idx="9">solution</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">combined</governor>
+            <dependent idx="10">should</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">combined</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">solution</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">%</governor>
+            <dependent idx="15">60</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">solution</governor>
+            <dependent idx="16">%</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">solution</governor>
+            <dependent idx="17">HCL</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="12">combined</governor>
+            <dependent idx="18">solution</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">solution</governor>
+            <dependent idx="20">order</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">get</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">combined</governor>
+            <dependent idx="22">get</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="24">milliliters</governor>
+            <dependent idx="23">50</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">get</governor>
+            <dependent idx="24">milliliters</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">solution</governor>
+            <dependent idx="26">a</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="28">%</governor>
+            <dependent idx="27">30</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="30">solution</governor>
+            <dependent idx="28">%</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">solution</governor>
+            <dependent idx="29">HCL</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="24">milliliters</governor>
+            <dependent idx="30">solution</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

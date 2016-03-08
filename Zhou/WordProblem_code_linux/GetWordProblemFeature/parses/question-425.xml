@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Six</word>
+            <lemma>six</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>6.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>apples</word>
+            <lemma>apple</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>three</word>
+            <lemma>three</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>oranges</word>
+            <lemma>orange</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>cost</word>
+            <lemma>cost</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>1.77</word>
+            <lemma>1.77</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$1.77</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$1.77</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (CD Six) (NNS apples)) (CC and) (NP (CD three) (NNS oranges))) (VP (VBD cost) (NP (QP (CD 1.77) (NNS dollars)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">cost</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">apples</governor>
+            <dependent idx="1">Six</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">cost</governor>
+            <dependent idx="2">apples</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">apples</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">oranges</governor>
+            <dependent idx="4">three</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">apples</governor>
+            <dependent idx="5">oranges</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">dollars</governor>
+            <dependent idx="7">1.77</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">cost</governor>
+            <dependent idx="8">dollars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">cost</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">apples</governor>
+            <dependent idx="1">Six</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">cost</governor>
+            <dependent idx="2">apples</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">oranges</governor>
+            <dependent idx="4">three</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">apples</governor>
+            <dependent idx="5">oranges</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">dollars</governor>
+            <dependent idx="7">1.77</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">cost</governor>
+            <dependent idx="8">dollars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">cost</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">apples</governor>
+            <dependent idx="1">Six</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">cost</governor>
+            <dependent idx="2">apples</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">oranges</governor>
+            <dependent idx="4">three</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">apples</governor>
+            <dependent idx="5">oranges</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">cost</governor>
+            <dependent idx="5">oranges</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">dollars</governor>
+            <dependent idx="7">1.77</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">cost</governor>
+            <dependent idx="8">dollars</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Two</word>
+            <lemma>two</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>apples</word>
+            <lemma>apple</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>five</word>
+            <lemma>five</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>5.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>oranges</word>
+            <lemma>orange</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>cost</word>
+            <lemma>cost</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>1.27</word>
+            <lemma>1.27</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$1.27</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$1.27</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (CD Two) (NNS apples)) (CC and) (NP (CD five) (NNS oranges))) (VP (VBD cost) (NP (CD 1.27) (NNS dollars))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">cost</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">apples</governor>
+            <dependent idx="1">Two</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">cost</governor>
+            <dependent idx="2">apples</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">apples</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">oranges</governor>
+            <dependent idx="4">five</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">apples</governor>
+            <dependent idx="5">oranges</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">dollars</governor>
+            <dependent idx="7">1.27</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">cost</governor>
+            <dependent idx="8">dollars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">cost</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">apples</governor>
+            <dependent idx="1">Two</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">cost</governor>
+            <dependent idx="2">apples</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">oranges</governor>
+            <dependent idx="4">five</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">apples</governor>
+            <dependent idx="5">oranges</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">dollars</governor>
+            <dependent idx="7">1.27</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">cost</governor>
+            <dependent idx="8">dollars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">cost</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">apples</governor>
+            <dependent idx="1">Two</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">cost</governor>
+            <dependent idx="2">apples</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">oranges</governor>
+            <dependent idx="4">five</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">apples</governor>
+            <dependent idx="5">oranges</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">cost</governor>
+            <dependent idx="5">oranges</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">dollars</governor>
+            <dependent idx="7">1.27</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">cost</governor>
+            <dependent idx="8">dollars</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>cost</word>
+            <lemma>cost</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>each</word>
+            <lemma>each</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>apple</word>
+            <lemma>apple</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>cost</word>
+            <lemma>cost</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>orange</word>
+            <lemma>orange</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VB Find) (NP (NP (NP (DT the) (NN cost)) (PP (IN of) (NP (DT each) (NN apple)))) (CC and) (NP (NP (DT the) (NN cost)) (PP (IN of) (NP (DT an) (NN orange)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">cost</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">cost</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">cost</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">apple</governor>
+            <dependent idx="5">each</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="6">apple</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">cost</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">cost</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">cost</governor>
+            <dependent idx="9">cost</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">cost</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">orange</governor>
+            <dependent idx="11">an</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="12">orange</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">cost</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">cost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">apple</governor>
+            <dependent idx="5">each</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">cost</governor>
+            <dependent idx="6">apple</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">cost</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">cost</governor>
+            <dependent idx="9">cost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">orange</governor>
+            <dependent idx="11">an</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">cost</governor>
+            <dependent idx="12">orange</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">cost</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">cost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">apple</governor>
+            <dependent idx="5">each</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">cost</governor>
+            <dependent idx="6">apple</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">cost</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="9">cost</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">cost</governor>
+            <dependent idx="9">cost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">orange</governor>
+            <dependent idx="11">an</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">cost</governor>
+            <dependent idx="12">orange</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

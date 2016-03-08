@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>whose</word>
+            <lemma>whose</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>WP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>double</word>
+            <lemma>double</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>45</word>
+            <lemma>45</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>45.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>greater</word>
+            <lemma>greater</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>its</word>
+            <lemma>its</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>half</word>
+            <lemma>half</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SQ (VP (VB Find) (NP (NP (DT the) (NN number)) (SBAR (WHNP (WP$ whose) (JJ double)) (S (VP (VBZ is) (ADJP (ADJP (NP (CD 45)) (JJR greater)) (PP (IN than) (NP (PRP$ its) (NN half))))))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">double</governor>
+            <dependent idx="4">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">greater</governor>
+            <dependent idx="5">double</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">greater</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="8">greater</governor>
+            <dependent idx="7">45</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="3">number</governor>
+            <dependent idx="8">greater</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">greater</governor>
+            <dependent idx="9">than</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">half</governor>
+            <dependent idx="10">its</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">than</governor>
+            <dependent idx="11">half</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">double</governor>
+            <dependent idx="4">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">greater</governor>
+            <dependent idx="5">double</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">greater</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="8">greater</governor>
+            <dependent idx="7">45</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="3">number</governor>
+            <dependent idx="8">greater</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">half</governor>
+            <dependent idx="10">its</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="8">greater</governor>
+            <dependent idx="11">half</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">double</governor>
+            <dependent idx="4">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">greater</governor>
+            <dependent idx="5">double</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">greater</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="8">greater</governor>
+            <dependent idx="7">45</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="3">number</governor>
+            <dependent idx="8">greater</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">half</governor>
+            <dependent idx="10">its</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="8">greater</governor>
+            <dependent idx="11">half</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>45</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>its</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

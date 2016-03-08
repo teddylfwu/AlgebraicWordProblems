@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>One</word>
+            <lemma>one</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>1000.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>thousand</word>
+            <lemma>thousand</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>1000.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>quarts</word>
+            <lemma>quart</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>milk</word>
+            <lemma>milk</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>testing</word>
+            <lemma>testing</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>4</word>
+            <lemma>4</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%4.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%4.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>butterfat</word>
+            <lemma>butterfat</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>reduced</word>
+            <lemma>reduce</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>3</word>
+            <lemma>3</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (CD One)) (PP (NP (QP (CD thousand) (NNS quarts))) (IN of) (NP (NP (NN milk) (NN testing)) (NP (ADJP (CD 4) (NN %)) (NN butterfat))))) (VP (VBP are) (S (VP (TO to) (VP (VB be) (VP (VBN reduced) (PP (TO to) (NP (CD 3) (NN %)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">are</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">are</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="3">quarts</governor>
+            <dependent idx="2">thousand</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="4">of</governor>
+            <dependent idx="3">quarts</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">One</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">testing</governor>
+            <dependent idx="5">milk</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="6">testing</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">%</governor>
+            <dependent idx="7">4</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">butterfat</governor>
+            <dependent idx="8">%</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">testing</governor>
+            <dependent idx="9">butterfat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">reduced</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">reduced</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">are</governor>
+            <dependent idx="13">reduced</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">reduced</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">%</governor>
+            <dependent idx="15">3</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">to</governor>
+            <dependent idx="16">%</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">are</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">are</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="3">quarts</governor>
+            <dependent idx="2">thousand</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="1">One</governor>
+            <dependent idx="3">quarts</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">testing</governor>
+            <dependent idx="5">milk</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">One</governor>
+            <dependent idx="6">testing</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">%</governor>
+            <dependent idx="7">4</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">butterfat</governor>
+            <dependent idx="8">%</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">testing</governor>
+            <dependent idx="9">butterfat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">reduced</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">reduced</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">are</governor>
+            <dependent idx="13">reduced</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">%</governor>
+            <dependent idx="15">3</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="13">reduced</governor>
+            <dependent idx="16">%</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">are</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">are</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="3">quarts</governor>
+            <dependent idx="2">thousand</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="1">One</governor>
+            <dependent idx="3">quarts</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">testing</governor>
+            <dependent idx="5">milk</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">One</governor>
+            <dependent idx="6">testing</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">%</governor>
+            <dependent idx="7">4</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">butterfat</governor>
+            <dependent idx="8">%</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">testing</governor>
+            <dependent idx="9">butterfat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">reduced</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">reduced</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">are</governor>
+            <dependent idx="13">reduced</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">%</governor>
+            <dependent idx="15">3</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="13">reduced</governor>
+            <dependent idx="16">%</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>quarts</word>
+            <lemma>quart</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>cream</word>
+            <lemma>cream</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>testing</word>
+            <lemma>testing</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>23</word>
+            <lemma>23</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%23.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%23.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>butterfat</word>
+            <lemma>butterfat</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>must</word>
+            <lemma>must</lemma>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>separated</word>
+            <lemma>separate</lemma>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>milk</word>
+            <lemma>milk</lemma>
+            <CharacterOffsetBegin>151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>produce</word>
+            <lemma>produce</lemma>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>required</word>
+            <lemma>required</lemma>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>result</word>
+            <lemma>result</lemma>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHNP (WHADJP (WRB How) (JJ many)) (NNS quarts)) (PP (IN of) (NP (NP (NN cream) (NN testing)) (NP (ADJP (CD 23) (NN %)) (NN butterfat))))) (SQ (VP (MD must) (VP (VB be) (VP (VBN separated) (PP (IN from) (NP (DT the) (NN milk))) (S (VP (TO to) (VP (VB produce) (NP (DT the) (JJ required) (NN result))))))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">separated</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">quarts</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">separated</governor>
+            <dependent idx="3">quarts</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">quarts</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">testing</governor>
+            <dependent idx="5">cream</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="6">testing</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">%</governor>
+            <dependent idx="7">23</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">butterfat</governor>
+            <dependent idx="8">%</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">testing</governor>
+            <dependent idx="9">butterfat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">separated</governor>
+            <dependent idx="10">must</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">separated</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">separated</governor>
+            <dependent idx="13">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">milk</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">from</governor>
+            <dependent idx="15">milk</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">produce</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">separated</governor>
+            <dependent idx="17">produce</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">result</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">result</governor>
+            <dependent idx="19">required</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">produce</governor>
+            <dependent idx="20">result</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">separated</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">quarts</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">separated</governor>
+            <dependent idx="3">quarts</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">testing</governor>
+            <dependent idx="5">cream</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">quarts</governor>
+            <dependent idx="6">testing</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">%</governor>
+            <dependent idx="7">23</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">butterfat</governor>
+            <dependent idx="8">%</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">testing</governor>
+            <dependent idx="9">butterfat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">separated</governor>
+            <dependent idx="10">must</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">separated</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">milk</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="12">separated</governor>
+            <dependent idx="15">milk</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">produce</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">separated</governor>
+            <dependent idx="17">produce</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">result</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">result</governor>
+            <dependent idx="19">required</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">produce</governor>
+            <dependent idx="20">result</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">separated</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">quarts</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">separated</governor>
+            <dependent idx="3">quarts</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">testing</governor>
+            <dependent idx="5">cream</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">quarts</governor>
+            <dependent idx="6">testing</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">%</governor>
+            <dependent idx="7">23</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">butterfat</governor>
+            <dependent idx="8">%</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">testing</governor>
+            <dependent idx="9">butterfat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">separated</governor>
+            <dependent idx="10">must</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">separated</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">milk</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="12">separated</governor>
+            <dependent idx="15">milk</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">produce</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">separated</governor>
+            <dependent idx="17">produce</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">result</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">result</governor>
+            <dependent idx="19">required</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">produce</governor>
+            <dependent idx="20">result</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

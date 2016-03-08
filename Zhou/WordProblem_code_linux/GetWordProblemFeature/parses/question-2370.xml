@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>two</word>
+            <lemma>two</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>numbers</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>whose</word>
+            <lemma>whose</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>WP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>sum</word>
+            <lemma>sum</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>55</word>
+            <lemma>55</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>55.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>whose</word>
+            <lemma>whose</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>WP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>difference</word>
+            <lemma>difference</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>15</word>
+            <lemma>15</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>15.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VB Find) (NP (CD two) (NNS numbers)) (SBAR (SBAR (WHNP (WP$ whose) (NN sum)) (S (VP (VBZ is) (NP (CD 55))))) (CC and) (SBAR (WHNP (WP$ whose) (NN difference)) (S (VP (VBZ is) (NP (CD 15))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">numbers</governor>
+            <dependent idx="2">two</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">numbers</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">sum</governor>
+            <dependent idx="4">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">55</governor>
+            <dependent idx="5">sum</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">55</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Find</governor>
+            <dependent idx="7">55</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">55</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">difference</governor>
+            <dependent idx="9">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">15</governor>
+            <dependent idx="10">difference</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">15</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">55</governor>
+            <dependent idx="12">15</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">numbers</governor>
+            <dependent idx="2">two</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">numbers</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">sum</governor>
+            <dependent idx="4">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">55</governor>
+            <dependent idx="5">sum</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">55</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Find</governor>
+            <dependent idx="7">55</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">difference</governor>
+            <dependent idx="9">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">15</governor>
+            <dependent idx="10">difference</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">15</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">55</governor>
+            <dependent idx="12">15</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">numbers</governor>
+            <dependent idx="2">two</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">numbers</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">sum</governor>
+            <dependent idx="4">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">55</governor>
+            <dependent idx="5">sum</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">55</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Find</governor>
+            <dependent idx="7">55</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">difference</governor>
+            <dependent idx="9">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">15</governor>
+            <dependent idx="10">difference</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">15</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Find</governor>
+            <dependent idx="12">15</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">55</governor>
+            <dependent idx="12">15</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

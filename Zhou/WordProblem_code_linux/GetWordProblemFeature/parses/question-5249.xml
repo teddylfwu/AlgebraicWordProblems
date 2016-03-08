@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Joey</word>
+            <lemma>Joey</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>makes</word>
+            <lemma>make</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>100</word>
+            <lemma>100</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>£100.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>pounds</word>
+            <lemma>pound</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>£100.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>coffee</word>
+            <lemma>coffee</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>mix</word>
+            <lemma>mix</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Joey)) (VP (VBZ makes) (NP (NP (CD 100) (NNS pounds)) (PP (IN of) (NP (DT a) (NN coffee) (NN mix))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">makes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">makes</governor>
+            <dependent idx="1">Joey</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">pounds</governor>
+            <dependent idx="3">100</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">makes</governor>
+            <dependent idx="4">pounds</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">pounds</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">mix</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">mix</governor>
+            <dependent idx="7">coffee</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">of</governor>
+            <dependent idx="8">mix</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">makes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">makes</governor>
+            <dependent idx="1">Joey</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">pounds</governor>
+            <dependent idx="3">100</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">makes</governor>
+            <dependent idx="4">pounds</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">mix</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">mix</governor>
+            <dependent idx="7">coffee</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="4">pounds</governor>
+            <dependent idx="8">mix</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">makes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">makes</governor>
+            <dependent idx="1">Joey</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">pounds</governor>
+            <dependent idx="3">100</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">makes</governor>
+            <dependent idx="4">pounds</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">mix</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">mix</governor>
+            <dependent idx="7">coffee</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="4">pounds</governor>
+            <dependent idx="8">mix</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Columbian</word>
+            <lemma>columbian</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>coffee</word>
+            <lemma>coffee</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>selling</word>
+            <lemma>selling</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>8.75</word>
+            <lemma>8.75</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$8.75</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$8.75</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>per</word>
+            <lemma>per</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>pound</word>
+            <lemma>pound</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>mixed</word>
+            <lemma>mix</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Brazilian</word>
+            <lemma>brazilian</lemma>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>coffee</word>
+            <lemma>coffee</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>selling</word>
+            <lemma>selling</lemma>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>3.75</word>
+            <lemma>3.75</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$3.75</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$3.75</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>per</word>
+            <lemma>per</lemma>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>pound</word>
+            <lemma>pound</lemma>
+            <CharacterOffsetBegin>151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (JJ Columbian) (NN coffee) (NN selling)) (PP (IN for) (NP (NP (CD 8.75) (NNS dollars)) (PP (IN per) (NP (NN pound)))))) (VP (VBZ is) (ADJP (VBN mixed) (PP (IN with) (NP (NP (JJ Brazilian) (NN coffee) (NN selling)) (PP (IN for) (NP (NP (CD 3.75) (NNS dollars)) (PP (IN per) (NP (NN pound))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">mixed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">selling</governor>
+            <dependent idx="1">Columbian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">selling</governor>
+            <dependent idx="2">coffee</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">mixed</governor>
+            <dependent idx="3">selling</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">selling</governor>
+            <dependent idx="4">for</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">dollars</governor>
+            <dependent idx="5">8.75</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">for</governor>
+            <dependent idx="6">dollars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">dollars</governor>
+            <dependent idx="7">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">per</governor>
+            <dependent idx="8">pound</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">mixed</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">mixed</governor>
+            <dependent idx="11">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">selling</governor>
+            <dependent idx="12">Brazilian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">selling</governor>
+            <dependent idx="13">coffee</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">with</governor>
+            <dependent idx="14">selling</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">selling</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="17">dollars</governor>
+            <dependent idx="16">3.75</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">for</governor>
+            <dependent idx="17">dollars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">dollars</governor>
+            <dependent idx="18">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">per</governor>
+            <dependent idx="19">pound</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">mixed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">selling</governor>
+            <dependent idx="1">Columbian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">selling</governor>
+            <dependent idx="2">coffee</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">mixed</governor>
+            <dependent idx="3">selling</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">dollars</governor>
+            <dependent idx="5">8.75</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="3">selling</governor>
+            <dependent idx="6">dollars</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="6">dollars</governor>
+            <dependent idx="8">pound</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">mixed</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">selling</governor>
+            <dependent idx="12">Brazilian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">selling</governor>
+            <dependent idx="13">coffee</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="10">mixed</governor>
+            <dependent idx="14">selling</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="17">dollars</governor>
+            <dependent idx="16">3.75</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="14">selling</governor>
+            <dependent idx="17">dollars</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="17">dollars</governor>
+            <dependent idx="19">pound</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">mixed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">selling</governor>
+            <dependent idx="1">Columbian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">selling</governor>
+            <dependent idx="2">coffee</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">mixed</governor>
+            <dependent idx="3">selling</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">dollars</governor>
+            <dependent idx="5">8.75</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="3">selling</governor>
+            <dependent idx="6">dollars</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="6">dollars</governor>
+            <dependent idx="8">pound</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">mixed</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">selling</governor>
+            <dependent idx="12">Brazilian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">selling</governor>
+            <dependent idx="13">coffee</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="10">mixed</governor>
+            <dependent idx="14">selling</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="17">dollars</governor>
+            <dependent idx="16">3.75</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="14">selling</governor>
+            <dependent idx="17">dollars</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="17">dollars</governor>
+            <dependent idx="19">pound</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>final</word>
+            <lemma>final</lemma>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>mix</word>
+            <lemma>mix</lemma>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>sells</word>
+            <lemma>sell</lemma>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>6.35</word>
+            <lemma>6.35</lemma>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$6.35</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$6.35</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>per</word>
+            <lemma>per</lemma>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>198</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>pound</word>
+            <lemma>pound</lemma>
+            <CharacterOffsetBegin>199</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>204</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (JJ final) (NN mix)) (VP (VBZ sells) (PP (IN for) (NP (NP (CD 6.35) (NNS dollars)) (PP (IN per) (NP (NN pound)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">sells</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">mix</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">mix</governor>
+            <dependent idx="2">final</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">sells</governor>
+            <dependent idx="3">mix</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">sells</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">dollars</governor>
+            <dependent idx="6">6.35</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">for</governor>
+            <dependent idx="7">dollars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">dollars</governor>
+            <dependent idx="8">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">per</governor>
+            <dependent idx="9">pound</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">sells</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">mix</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">mix</governor>
+            <dependent idx="2">final</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">sells</governor>
+            <dependent idx="3">mix</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">dollars</governor>
+            <dependent idx="6">6.35</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">sells</governor>
+            <dependent idx="7">dollars</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="7">dollars</governor>
+            <dependent idx="9">pound</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">sells</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">mix</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">mix</governor>
+            <dependent idx="2">final</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">sells</governor>
+            <dependent idx="3">mix</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">dollars</governor>
+            <dependent idx="6">6.35</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">sells</governor>
+            <dependent idx="7">dollars</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="7">dollars</governor>
+            <dependent idx="9">pound</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>209</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>much</word>
+            <lemma>much</lemma>
+            <CharacterOffsetBegin>210</CharacterOffsetBegin>
+            <CharacterOffsetEnd>214</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>215</CharacterOffsetBegin>
+            <CharacterOffsetEnd>217</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>each</word>
+            <lemma>each</lemma>
+            <CharacterOffsetBegin>218</CharacterOffsetBegin>
+            <CharacterOffsetEnd>222</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>type</word>
+            <lemma>type</lemma>
+            <CharacterOffsetBegin>223</CharacterOffsetBegin>
+            <CharacterOffsetEnd>227</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>228</CharacterOffsetBegin>
+            <CharacterOffsetEnd>230</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>coffee</word>
+            <lemma>coffee</lemma>
+            <CharacterOffsetBegin>231</CharacterOffsetBegin>
+            <CharacterOffsetEnd>237</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>238</CharacterOffsetBegin>
+            <CharacterOffsetEnd>240</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>used</word>
+            <lemma>use</lemma>
+            <CharacterOffsetBegin>241</CharacterOffsetBegin>
+            <CharacterOffsetEnd>245</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>246</CharacterOffsetBegin>
+            <CharacterOffsetEnd>248</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>249</CharacterOffsetBegin>
+            <CharacterOffsetEnd>252</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>mix</word>
+            <lemma>mix</lemma>
+            <CharacterOffsetBegin>253</CharacterOffsetBegin>
+            <CharacterOffsetEnd>256</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>256</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHNP (WRB How) (RB much)) (PP (IN of) (NP (NP (DT each) (NN type)) (PP (IN of) (NP (NN coffee)))))) (SQ (VBZ is) (VP (VBN used) (PP (IN in) (NP (DT the) (NN mix))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">used</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">much</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">used</governor>
+            <dependent idx="2">much</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">much</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">type</governor>
+            <dependent idx="4">each</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="5">type</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">type</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="7">coffee</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">used</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">used</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">mix</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="12">mix</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">used</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">much</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">used</governor>
+            <dependent idx="2">much</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">type</governor>
+            <dependent idx="4">each</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">much</governor>
+            <dependent idx="5">type</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">type</governor>
+            <dependent idx="7">coffee</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">used</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">mix</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">used</governor>
+            <dependent idx="12">mix</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">used</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">much</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">used</governor>
+            <dependent idx="2">much</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">type</governor>
+            <dependent idx="4">each</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">much</governor>
+            <dependent idx="5">type</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">type</governor>
+            <dependent idx="7">coffee</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">used</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">mix</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">used</governor>
+            <dependent idx="12">mix</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>3</sentence>
+          <start>1</start>
+          <end>4</end>
+          <head>3</head>
+          <text>The final mix</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>11</start>
+          <end>13</end>
+          <head>12</head>
+          <text>the mix</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

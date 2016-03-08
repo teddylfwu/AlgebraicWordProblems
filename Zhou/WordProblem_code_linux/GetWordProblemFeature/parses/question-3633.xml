@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>truck</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>trailer</word>
+            <lemma>trailer</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>together</word>
+            <lemma>together</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>weigh</word>
+            <lemma>weigh</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>7,000</word>
+            <lemma>7,000</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>7000.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>pounds</word>
+            <lemma>pound</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT A) (NN truck) (CC and) (NN trailer)) (ADVP (RB together)) (VP (VBP weigh) (NP (CD 7,000) (NNS pounds))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">weigh</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">truck</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">weigh</governor>
+            <dependent idx="2">truck</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">truck</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">truck</governor>
+            <dependent idx="4">trailer</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">weigh</governor>
+            <dependent idx="5">together</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">pounds</governor>
+            <dependent idx="7">7,000</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">weigh</governor>
+            <dependent idx="8">pounds</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">weigh</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">truck</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">weigh</governor>
+            <dependent idx="2">truck</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">truck</governor>
+            <dependent idx="4">trailer</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">weigh</governor>
+            <dependent idx="5">together</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">pounds</governor>
+            <dependent idx="7">7,000</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">weigh</governor>
+            <dependent idx="8">pounds</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">weigh</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">truck</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">weigh</governor>
+            <dependent idx="2">truck</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">truck</governor>
+            <dependent idx="4">trailer</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">weigh</governor>
+            <dependent idx="4">trailer</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">weigh</governor>
+            <dependent idx="5">together</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">pounds</governor>
+            <dependent idx="7">7,000</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">weigh</governor>
+            <dependent idx="8">pounds</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>trailer</word>
+            <lemma>trailer</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>weighs</word>
+            <lemma>weigh</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>200</word>
+            <lemma>200</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>200.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>pounds</word>
+            <lemma>pound</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>less</word>
+            <lemma>less</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>0.5</word>
+            <lemma>0.5</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&lt;0.5</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>much</word>
+            <lemma>much</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>truck</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN trailer)) (VP (VBZ weighs) (NP (CD 200) (NNS pounds) (QP (XS (JJR less) (IN than)) (CD 0.5))) (ADVP (RB as) (RB much)) (PP (IN as) (NP (DT the) (NN truck)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">weighs</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">trailer</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">weighs</governor>
+            <dependent idx="2">trailer</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">pounds</governor>
+            <dependent idx="4">200</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">weighs</governor>
+            <dependent idx="5">pounds</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="7">than</governor>
+            <dependent idx="6">less</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="8">0.5</governor>
+            <dependent idx="7">than</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">pounds</governor>
+            <dependent idx="8">0.5</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">much</governor>
+            <dependent idx="9">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">weighs</governor>
+            <dependent idx="10">much</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">weighs</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">truck</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">as</governor>
+            <dependent idx="13">truck</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">weighs</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">trailer</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">weighs</governor>
+            <dependent idx="2">trailer</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">pounds</governor>
+            <dependent idx="4">200</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">weighs</governor>
+            <dependent idx="5">pounds</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="7">than</governor>
+            <dependent idx="6">less</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="8">0.5</governor>
+            <dependent idx="7">than</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">pounds</governor>
+            <dependent idx="8">0.5</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">much</governor>
+            <dependent idx="9">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">weighs</governor>
+            <dependent idx="10">much</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">truck</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="3">weighs</governor>
+            <dependent idx="13">truck</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">weighs</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">trailer</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">weighs</governor>
+            <dependent idx="2">trailer</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">pounds</governor>
+            <dependent idx="4">200</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">weighs</governor>
+            <dependent idx="5">pounds</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="7">than</governor>
+            <dependent idx="6">less</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="8">0.5</governor>
+            <dependent idx="7">than</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">pounds</governor>
+            <dependent idx="8">0.5</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">much</governor>
+            <dependent idx="9">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">weighs</governor>
+            <dependent idx="10">much</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">truck</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="3">weighs</governor>
+            <dependent idx="13">truck</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>truck</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>weight</word>
+            <lemma>weight</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VB Find) (NP (NP (DT the) (NN truck) (POS 's)) (NN weight))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">truck</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">weight</governor>
+            <dependent idx="3">truck</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="3">truck</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="5">weight</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">truck</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">weight</governor>
+            <dependent idx="3">truck</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="5">weight</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">truck</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">weight</governor>
+            <dependent idx="3">truck</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="5">weight</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>Find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>trailer</word>
+            <lemma>trailer</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>weight</word>
+            <lemma>weight</lemma>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VB Find) (NP (NP (DT the) (NN trailer) (POS 's)) (NN weight))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">trailer</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">weight</governor>
+            <dependent idx="3">trailer</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="3">trailer</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="5">weight</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">trailer</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">weight</governor>
+            <dependent idx="3">trailer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="5">weight</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">trailer</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">weight</governor>
+            <dependent idx="3">trailer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="5">weight</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>5</end>
+          <head>2</head>
+          <text>A truck and trailer</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>12</start>
+          <end>14</end>
+          <head>13</head>
+          <text>the truck</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>2</start>
+          <end>5</end>
+          <head>3</head>
+          <text>the truck 's</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>4</sentence>
+          <start>2</start>
+          <end>5</end>
+          <head>3</head>
+          <text>the trailer 's</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>The trailer</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

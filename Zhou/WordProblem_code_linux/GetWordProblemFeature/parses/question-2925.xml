@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Riza</word>
+            <lemma>Riza</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>25</word>
+            <lemma>25</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>25.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>when</word>
+            <lemma>when</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>her</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>first</word>
+            <lemma>first</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>son</word>
+            <lemma>son</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>born</word>
+            <lemma>bear</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Riza)) (VP (VBD was) (NP (NP (CD 25)) (SBAR (WHADVP (WRB when)) (S (NP (PRP$ her) (JJ first) (NN son)) (VP (VBD was) (VP (VBN born))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">25</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">25</governor>
+            <dependent idx="1">Riza</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">25</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">born</governor>
+            <dependent idx="4">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">son</governor>
+            <dependent idx="5">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">son</governor>
+            <dependent idx="6">first</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">born</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">born</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="3">25</governor>
+            <dependent idx="9">born</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">25</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">25</governor>
+            <dependent idx="1">Riza</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">25</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">born</governor>
+            <dependent idx="4">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">son</governor>
+            <dependent idx="5">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">son</governor>
+            <dependent idx="6">first</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">born</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">born</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="3">25</governor>
+            <dependent idx="9">born</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">25</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">25</governor>
+            <dependent idx="1">Riza</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">25</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">born</governor>
+            <dependent idx="4">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">son</governor>
+            <dependent idx="5">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">son</governor>
+            <dependent idx="6">first</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">born</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">born</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="3">25</governor>
+            <dependent idx="9">born</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Today</word>
+            <lemma>today</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1D</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>sum</word>
+            <lemma>sum</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>their</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>ages</word>
+            <lemma>age</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>105</word>
+            <lemma>105</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>105.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP-TMP (NN Today)) (NP (NP (DT the) (NN sum)) (PP (IN of) (NP (PRP$ their) (NNS ages)))) (VP (VBZ is) (NP (CD 105))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">105</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="8">105</governor>
+            <dependent idx="1">Today</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">sum</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">105</governor>
+            <dependent idx="3">sum</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">sum</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">ages</governor>
+            <dependent idx="5">their</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="6">ages</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">105</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">105</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="8">105</governor>
+            <dependent idx="1">Today</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">sum</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">105</governor>
+            <dependent idx="3">sum</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">ages</governor>
+            <dependent idx="5">their</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">sum</governor>
+            <dependent idx="6">ages</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">105</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">105</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="8">105</governor>
+            <dependent idx="1">Today</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">sum</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">105</governor>
+            <dependent idx="3">sum</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">ages</governor>
+            <dependent idx="5">their</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">sum</governor>
+            <dependent idx="6">ages</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">105</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>old</word>
+            <lemma>old</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Riza</word>
+            <lemma>Riza</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>her</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>son</word>
+            <lemma>son</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>now</word>
+            <lemma>now</lemma>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>PRESENT_REF</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">PRESENT_REF</Timex>
+          </token>
+          <token id="9">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHADJP (WRB How) (JJ old)) (SQ (VBZ is) (NP (NP (NNP Riza)) (CC and) (NP (PRP$ her) (NN son) (RB now)))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">old</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">is</governor>
+            <dependent idx="2">old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="4">Riza</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Riza</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">son</governor>
+            <dependent idx="6">her</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">Riza</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">son</governor>
+            <dependent idx="8">now</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">old</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">is</governor>
+            <dependent idx="2">old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="4">Riza</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">son</governor>
+            <dependent idx="6">her</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">Riza</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">son</governor>
+            <dependent idx="8">now</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">old</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">is</governor>
+            <dependent idx="2">old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="4">Riza</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">son</governor>
+            <dependent idx="6">her</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">Riza</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">son</governor>
+            <dependent idx="8">now</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Riza</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>her</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>Riza</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>her</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>5</start>
+          <end>8</end>
+          <head>7</head>
+          <text>her first son</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>6</start>
+          <end>9</end>
+          <head>7</head>
+          <text>her son now</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>105</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>2</start>
+          <end>7</end>
+          <head>3</head>
+          <text>the sum of their ages</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

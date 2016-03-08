@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Tony</word>
+            <lemma>Tony</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>planted</word>
+            <lemma>plant</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>4</word>
+            <lemma>4</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>4.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>foot</word>
+            <lemma>foot</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>tree</word>
+            <lemma>tree</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Tony)) (VP (VBD planted) (NP (DT a) (CD 4) (NN foot) (NN tree))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">planted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">planted</governor>
+            <dependent idx="1">Tony</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">tree</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">tree</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">tree</governor>
+            <dependent idx="5">foot</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">planted</governor>
+            <dependent idx="6">tree</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">planted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">planted</governor>
+            <dependent idx="1">Tony</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">tree</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">tree</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">tree</governor>
+            <dependent idx="5">foot</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">planted</governor>
+            <dependent idx="6">tree</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">planted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">planted</governor>
+            <dependent idx="1">Tony</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">tree</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">tree</governor>
+            <dependent idx="4">4</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">tree</governor>
+            <dependent idx="5">foot</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">planted</governor>
+            <dependent idx="6">tree</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>tree</word>
+            <lemma>tree</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>grows</word>
+            <lemma>grow</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>rate</word>
+            <lemma>rate</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>5</word>
+            <lemma>5</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>5.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>feet</word>
+            <lemma>foot</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>every</word>
+            <lemma>every</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>SET</NER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="SET">P1Y</Timex>
+          </token>
+          <token id="11">
+            <word>year</word>
+            <lemma>year</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>SET</NER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="SET">P1Y</Timex>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN tree)) (VP (VBZ grows) (PP (IN at) (NP (NP (DT a) (NN rate)) (PP (IN of) (NP (NP (CD 5) (NNS feet)) (NP (DT every) (NN year))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">grows</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">tree</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">grows</governor>
+            <dependent idx="2">tree</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">grows</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">rate</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">at</governor>
+            <dependent idx="6">rate</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">rate</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="9">feet</governor>
+            <dependent idx="8">5</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="9">feet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">year</governor>
+            <dependent idx="10">every</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">feet</governor>
+            <dependent idx="11">year</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">grows</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">tree</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">grows</governor>
+            <dependent idx="2">tree</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">rate</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="3">grows</governor>
+            <dependent idx="6">rate</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="9">feet</governor>
+            <dependent idx="8">5</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">rate</governor>
+            <dependent idx="9">feet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">year</governor>
+            <dependent idx="10">every</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">feet</governor>
+            <dependent idx="11">year</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">grows</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">tree</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">grows</governor>
+            <dependent idx="2">tree</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">rate</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="3">grows</governor>
+            <dependent idx="6">rate</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="9">feet</governor>
+            <dependent idx="8">5</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">rate</governor>
+            <dependent idx="9">feet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">year</governor>
+            <dependent idx="10">every</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">feet</governor>
+            <dependent idx="11">year</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>years</word>
+            <lemma>year</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PXY</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PXY</Timex>
+          </token>
+          <token id="4">
+            <word>will</word>
+            <lemma>will</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>take</word>
+            <lemma>take</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>29</word>
+            <lemma>29</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>29.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>feet</word>
+            <lemma>foot</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS years)) (SQ (MD will) (NP (PRP it)) (VP (VB take) (S (VP (TO to) (VP (VB be) (NP (CD 29) (NNS feet))))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">take</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">years</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">take</governor>
+            <dependent idx="3">years</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">take</governor>
+            <dependent idx="4">will</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">take</governor>
+            <dependent idx="5">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">feet</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">feet</governor>
+            <dependent idx="8">be</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">feet</governor>
+            <dependent idx="9">29</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">take</governor>
+            <dependent idx="10">feet</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">take</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">years</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">take</governor>
+            <dependent idx="3">years</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">take</governor>
+            <dependent idx="4">will</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">take</governor>
+            <dependent idx="5">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">feet</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">feet</governor>
+            <dependent idx="8">be</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">feet</governor>
+            <dependent idx="9">29</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">take</governor>
+            <dependent idx="10">feet</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">take</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">years</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">take</governor>
+            <dependent idx="3">years</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">take</governor>
+            <dependent idx="4">will</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">take</governor>
+            <dependent idx="5">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">feet</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">feet</governor>
+            <dependent idx="8">be</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">feet</governor>
+            <dependent idx="9">29</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">take</governor>
+            <dependent idx="10">feet</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>7</end>
+          <head>6</head>
+          <text>a 4 foot tree</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>The tree</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

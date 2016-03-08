@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>petroleum</word>
+            <lemma>petroleum</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>company</word>
+            <lemma>company</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>two</word>
+            <lemma>two</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>different</word>
+            <lemma>different</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>sources</word>
+            <lemma>source</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>crude</word>
+            <lemma>crude</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>oil</word>
+            <lemma>oil</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT A) (NN petroleum) (NN company)) (VP (VBZ has) (NP (NP (CD two) (JJ different) (NNS sources)) (PP (IN of) (NP (JJ crude) (NN oil))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">company</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">company</governor>
+            <dependent idx="2">petroleum</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">sources</governor>
+            <dependent idx="5">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">sources</governor>
+            <dependent idx="6">different</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="7">sources</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">sources</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">oil</governor>
+            <dependent idx="9">crude</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="10">oil</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">company</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">company</governor>
+            <dependent idx="2">petroleum</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">sources</governor>
+            <dependent idx="5">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">sources</governor>
+            <dependent idx="6">different</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="7">sources</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">oil</governor>
+            <dependent idx="9">crude</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">sources</governor>
+            <dependent idx="10">oil</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">company</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">company</governor>
+            <dependent idx="2">petroleum</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">sources</governor>
+            <dependent idx="5">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">sources</governor>
+            <dependent idx="6">different</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="7">sources</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">oil</governor>
+            <dependent idx="9">crude</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">sources</governor>
+            <dependent idx="10">oil</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>first</word>
+            <lemma>first</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>source</word>
+            <lemma>source</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>provides</word>
+            <lemma>provide</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>crude</word>
+            <lemma>crude</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>oil</word>
+            <lemma>oil</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>25</word>
+            <lemma>25</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%25.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%25.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>hydrocarbons</word>
+            <lemma>hydrocarbon</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>second</word>
+            <lemma>second</lemma>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>one</word>
+            <lemma>one</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>provides</word>
+            <lemma>provide</lemma>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>crude</word>
+            <lemma>crude</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>oil</word>
+            <lemma>oil</lemma>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>164</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>75</word>
+            <lemma>75</lemma>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%75.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%75.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>hydrocarbons</word>
+            <lemma>hydrocarbon</lemma>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (DT The) (JJ first) (NN source)) (VP (VBZ provides) (NP (NP (JJ crude) (NN oil)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (NP (ADJP (CD 25) (NN %)) (NNS hydrocarbons)))))))) (CC and) (S (NP (DT the) (JJ second) (CD one)) (VP (VBZ provides) (NP (NP (JJ crude) (NN oil)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (NP (ADJP (CD 75) (NN %)) (NNS hydrocarbons)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">provides</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">source</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">source</governor>
+            <dependent idx="2">first</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">provides</governor>
+            <dependent idx="3">source</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">oil</governor>
+            <dependent idx="5">crude</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">provides</governor>
+            <dependent idx="6">oil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">hydrocarbons</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">hydrocarbons</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="10">%</governor>
+            <dependent idx="9">25</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">hydrocarbons</governor>
+            <dependent idx="10">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">oil</governor>
+            <dependent idx="11">hydrocarbons</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">provides</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">one</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">one</governor>
+            <dependent idx="14">second</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">provides</governor>
+            <dependent idx="15">one</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">provides</governor>
+            <dependent idx="16">provides</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">oil</governor>
+            <dependent idx="17">crude</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">provides</governor>
+            <dependent idx="18">oil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">hydrocarbons</governor>
+            <dependent idx="19">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">hydrocarbons</governor>
+            <dependent idx="20">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="22">%</governor>
+            <dependent idx="21">75</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">hydrocarbons</governor>
+            <dependent idx="22">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="18">oil</governor>
+            <dependent idx="23">hydrocarbons</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">provides</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">source</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">source</governor>
+            <dependent idx="2">first</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">provides</governor>
+            <dependent idx="3">source</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">oil</governor>
+            <dependent idx="5">crude</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">provides</governor>
+            <dependent idx="6">oil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">hydrocarbons</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">hydrocarbons</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="10">%</governor>
+            <dependent idx="9">25</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">hydrocarbons</governor>
+            <dependent idx="10">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">oil</governor>
+            <dependent idx="11">hydrocarbons</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">one</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">one</governor>
+            <dependent idx="14">second</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">provides</governor>
+            <dependent idx="15">one</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">provides</governor>
+            <dependent idx="16">provides</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">oil</governor>
+            <dependent idx="17">crude</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">provides</governor>
+            <dependent idx="18">oil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">hydrocarbons</governor>
+            <dependent idx="19">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">hydrocarbons</governor>
+            <dependent idx="20">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="22">%</governor>
+            <dependent idx="21">75</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">hydrocarbons</governor>
+            <dependent idx="22">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="18">oil</governor>
+            <dependent idx="23">hydrocarbons</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">provides</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">source</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">source</governor>
+            <dependent idx="2">first</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">provides</governor>
+            <dependent idx="3">source</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">oil</governor>
+            <dependent idx="5">crude</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">provides</governor>
+            <dependent idx="6">oil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">hydrocarbons</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">hydrocarbons</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="10">%</governor>
+            <dependent idx="9">25</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">hydrocarbons</governor>
+            <dependent idx="10">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">oil</governor>
+            <dependent idx="11">hydrocarbons</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">one</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">one</governor>
+            <dependent idx="14">second</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">provides</governor>
+            <dependent idx="15">one</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">provides</governor>
+            <dependent idx="16">provides</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">oil</governor>
+            <dependent idx="17">crude</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">provides</governor>
+            <dependent idx="18">oil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">hydrocarbons</governor>
+            <dependent idx="19">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">hydrocarbons</governor>
+            <dependent idx="20">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="22">%</governor>
+            <dependent idx="21">75</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">hydrocarbons</governor>
+            <dependent idx="22">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="18">oil</governor>
+            <dependent idx="23">hydrocarbons</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>order</word>
+            <lemma>order</lemma>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>198</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>obtain</word>
+            <lemma>obtain</lemma>
+            <CharacterOffsetBegin>199</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>50</word>
+            <lemma>50</lemma>
+            <CharacterOffsetBegin>206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>208</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>50.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>gallons</word>
+            <lemma>gallon</lemma>
+            <CharacterOffsetBegin>209</CharacterOffsetBegin>
+            <CharacterOffsetEnd>216</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>219</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>crude</word>
+            <lemma>crude</lemma>
+            <CharacterOffsetBegin>220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>225</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>oil</word>
+            <lemma>oil</lemma>
+            <CharacterOffsetBegin>226</CharacterOffsetBegin>
+            <CharacterOffsetEnd>229</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>230</CharacterOffsetBegin>
+            <CharacterOffsetEnd>234</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>237</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>55</word>
+            <lemma>55</lemma>
+            <CharacterOffsetBegin>238</CharacterOffsetBegin>
+            <CharacterOffsetEnd>240</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%55.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>241</CharacterOffsetBegin>
+            <CharacterOffsetEnd>242</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>PERCENT</NER>
+            <NormalizedNER>%55.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>hydrocarbons</word>
+            <lemma>hydrocarbon</lemma>
+            <CharacterOffsetBegin>243</CharacterOffsetBegin>
+            <CharacterOffsetEnd>255</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>256</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>how</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>258</CharacterOffsetBegin>
+            <CharacterOffsetEnd>261</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>262</CharacterOffsetBegin>
+            <CharacterOffsetEnd>266</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>gallons</word>
+            <lemma>gallon</lemma>
+            <CharacterOffsetBegin>267</CharacterOffsetBegin>
+            <CharacterOffsetEnd>274</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>275</CharacterOffsetBegin>
+            <CharacterOffsetEnd>277</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>crude</word>
+            <lemma>crude</lemma>
+            <CharacterOffsetBegin>278</CharacterOffsetBegin>
+            <CharacterOffsetEnd>283</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>oil</word>
+            <lemma>oil</lemma>
+            <CharacterOffsetBegin>284</CharacterOffsetBegin>
+            <CharacterOffsetEnd>287</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>must</word>
+            <lemma>must</lemma>
+            <CharacterOffsetBegin>288</CharacterOffsetBegin>
+            <CharacterOffsetEnd>292</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>293</CharacterOffsetBegin>
+            <CharacterOffsetEnd>295</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>used</word>
+            <lemma>use</lemma>
+            <CharacterOffsetBegin>296</CharacterOffsetBegin>
+            <CharacterOffsetEnd>300</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>301</CharacterOffsetBegin>
+            <CharacterOffsetEnd>305</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>each</word>
+            <lemma>each</lemma>
+            <CharacterOffsetBegin>306</CharacterOffsetBegin>
+            <CharacterOffsetEnd>310</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>311</CharacterOffsetBegin>
+            <CharacterOffsetEnd>313</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>314</CharacterOffsetBegin>
+            <CharacterOffsetEnd>317</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>two</word>
+            <lemma>two</lemma>
+            <CharacterOffsetBegin>318</CharacterOffsetBegin>
+            <CharacterOffsetEnd>321</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="30">
+            <word>sources</word>
+            <lemma>source</lemma>
+            <CharacterOffsetBegin>322</CharacterOffsetBegin>
+            <CharacterOffsetEnd>329</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>329</CharacterOffsetBegin>
+            <CharacterOffsetEnd>330</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (SBAR (IN In) (NN order) (S (VP (TO to) (VP (VB obtain) (NP (NP (CD 50) (NNS gallons)) (PP (IN of) (NP (JJ crude) (NN oil))) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (NP (ADJP (CD 55) (NN %)) (NNS hydrocarbons)))))))))) (, ,) (WHNP (WHNP (WHADJP (WRB how) (JJ many)) (NNS gallons)) (PP (IN of) (NP (JJ crude) (NN oil)))) (SQ (VP (MD must) (VP (VB be) (VP (VBN used) (PP (IN from) (NP (NP (DT each)) (PP (IN of) (NP (DT the) (CD two) (NNS sources))))))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">used</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">obtain</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">obtain</governor>
+            <dependent idx="2">order</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">obtain</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="24">used</governor>
+            <dependent idx="4">obtain</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">gallons</governor>
+            <dependent idx="5">50</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">obtain</governor>
+            <dependent idx="6">gallons</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">gallons</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">oil</governor>
+            <dependent idx="8">crude</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="9">oil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">hydrocarbons</governor>
+            <dependent idx="10">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">hydrocarbons</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="13">%</governor>
+            <dependent idx="12">55</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">hydrocarbons</governor>
+            <dependent idx="13">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">gallons</governor>
+            <dependent idx="14">hydrocarbons</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">many</governor>
+            <dependent idx="16">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">gallons</governor>
+            <dependent idx="17">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="24">used</governor>
+            <dependent idx="18">gallons</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">gallons</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">oil</governor>
+            <dependent idx="20">crude</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">of</governor>
+            <dependent idx="21">oil</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">used</governor>
+            <dependent idx="22">must</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="24">used</governor>
+            <dependent idx="23">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="24">used</governor>
+            <dependent idx="25">from</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="25">from</governor>
+            <dependent idx="26">each</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="26">each</governor>
+            <dependent idx="27">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">sources</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="30">sources</governor>
+            <dependent idx="29">two</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="27">of</governor>
+            <dependent idx="30">sources</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">used</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">obtain</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">obtain</governor>
+            <dependent idx="2">order</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">obtain</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="24">used</governor>
+            <dependent idx="4">obtain</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">gallons</governor>
+            <dependent idx="5">50</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">obtain</governor>
+            <dependent idx="6">gallons</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">oil</governor>
+            <dependent idx="8">crude</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">gallons</governor>
+            <dependent idx="9">oil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">hydrocarbons</governor>
+            <dependent idx="10">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">hydrocarbons</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="13">%</governor>
+            <dependent idx="12">55</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">hydrocarbons</governor>
+            <dependent idx="13">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">gallons</governor>
+            <dependent idx="14">hydrocarbons</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">many</governor>
+            <dependent idx="16">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">gallons</governor>
+            <dependent idx="17">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="24">used</governor>
+            <dependent idx="18">gallons</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">oil</governor>
+            <dependent idx="20">crude</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">gallons</governor>
+            <dependent idx="21">oil</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">used</governor>
+            <dependent idx="22">must</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="24">used</governor>
+            <dependent idx="23">be</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="24">used</governor>
+            <dependent idx="26">each</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">sources</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="30">sources</governor>
+            <dependent idx="29">two</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">each</governor>
+            <dependent idx="30">sources</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">used</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">obtain</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">obtain</governor>
+            <dependent idx="2">order</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">obtain</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="24">used</governor>
+            <dependent idx="4">obtain</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">gallons</governor>
+            <dependent idx="5">50</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">obtain</governor>
+            <dependent idx="6">gallons</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">oil</governor>
+            <dependent idx="8">crude</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">gallons</governor>
+            <dependent idx="9">oil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">hydrocarbons</governor>
+            <dependent idx="10">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">hydrocarbons</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="13">%</governor>
+            <dependent idx="12">55</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">hydrocarbons</governor>
+            <dependent idx="13">%</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">gallons</governor>
+            <dependent idx="14">hydrocarbons</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">many</governor>
+            <dependent idx="16">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">gallons</governor>
+            <dependent idx="17">many</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="24">used</governor>
+            <dependent idx="18">gallons</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">oil</governor>
+            <dependent idx="20">crude</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">gallons</governor>
+            <dependent idx="21">oil</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">used</governor>
+            <dependent idx="22">must</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="24">used</governor>
+            <dependent idx="23">be</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="24">used</governor>
+            <dependent idx="26">each</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">sources</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="30">sources</governor>
+            <dependent idx="29">two</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">each</governor>
+            <dependent idx="30">sources</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>two</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>29</start>
+          <end>30</end>
+          <head>29</head>
+          <text>two</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>5</start>
+          <end>11</end>
+          <head>7</head>
+          <text>two different sources of crude oil</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>28</start>
+          <end>31</end>
+          <head>30</head>
+          <text>the two sources</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

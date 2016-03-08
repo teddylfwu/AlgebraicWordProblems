@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>total</word>
+            <lemma>total</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>number</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Democrats</word>
+            <lemma>Democrats</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Republicans</word>
+            <lemma>Republicans</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>House</word>
+            <lemma>House</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Representatives</word>
+            <lemma>Representatives</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>434</word>
+            <lemma>434</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>434.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (JJ total) (NN number)) (PP (IN of) (NP (NP (NNPS Democrats) (CC and) (NNPS Republicans)) (PP (IN in) (NP (NP (DT the) (NNP House)) (PP (IN of) (NP (NNP Representatives)))))))) (VP (VBD was) (NP (CD 434))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">434</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">number</governor>
+            <dependent idx="2">total</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">434</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">number</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="5">Democrats</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="7">Republicans</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">House</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="10">House</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">House</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">of</governor>
+            <dependent idx="12">Representatives</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">434</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">434</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">number</governor>
+            <dependent idx="2">total</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">434</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">number</governor>
+            <dependent idx="5">Democrats</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="7">Republicans</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">House</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="10">House</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">House</governor>
+            <dependent idx="12">Representatives</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">434</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">434</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">number</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">number</governor>
+            <dependent idx="2">total</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">434</governor>
+            <dependent idx="3">number</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">number</governor>
+            <dependent idx="5">Democrats</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">number</governor>
+            <dependent idx="7">Republicans</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="7">Republicans</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">House</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="10">House</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">House</governor>
+            <dependent idx="12">Representatives</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">434</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>There</word>
+            <lemma>there</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>EX</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>were</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>30</word>
+            <lemma>30</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>30.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Republicans</word>
+            <lemma>Republicans</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>then</word>
+            <lemma>then</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Democrats</word>
+            <lemma>Democrats</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (EX There)) (VP (VBD were) (NP (QP (CD 30) (JJR more)) (NNPS Republicans)) (PP (RB then) (NP (NNPS Democrats)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">were</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">Republicans</governor>
+            <dependent idx="3">30</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="3">30</governor>
+            <dependent idx="4">more</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">were</governor>
+            <dependent idx="5">Republicans</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">were</governor>
+            <dependent idx="6">then</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">then</governor>
+            <dependent idx="7">Democrats</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">were</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">Republicans</governor>
+            <dependent idx="3">30</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="3">30</governor>
+            <dependent idx="4">more</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">were</governor>
+            <dependent idx="5">Republicans</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">were</governor>
+            <dependent idx="6">then</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">then</governor>
+            <dependent idx="7">Democrats</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">were</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">Republicans</governor>
+            <dependent idx="3">30</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="3">30</governor>
+            <dependent idx="4">more</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">were</governor>
+            <dependent idx="5">Republicans</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">were</governor>
+            <dependent idx="6">then</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">then</governor>
+            <dependent idx="7">Democrats</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>How</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Democrats</word>
+            <lemma>Democrats</lemma>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>152</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>153</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Republicans</word>
+            <lemma>Republicans</lemma>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>were</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>there</word>
+            <lemma>there</lemma>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>EX</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Senate</word>
+            <lemma>Senate</lemma>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>193</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>193</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NP (NP (NNPS Democrats)) (CC and) (NP (NNPS Republicans)))) (SQ (VBD were) (NP (EX there)) (PP (IN in) (NP (DT the) (NNP Senate)))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Democrats</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">were</governor>
+            <dependent idx="3">Democrats</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">Democrats</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">Democrats</governor>
+            <dependent idx="5">Republicans</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="6">were</governor>
+            <dependent idx="7">there</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">were</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Senate</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="10">Senate</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Democrats</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">were</governor>
+            <dependent idx="3">Democrats</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">Democrats</governor>
+            <dependent idx="5">Republicans</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="6">were</governor>
+            <dependent idx="7">there</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Senate</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">were</governor>
+            <dependent idx="10">Senate</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">many</governor>
+            <dependent idx="1">How</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Democrats</governor>
+            <dependent idx="2">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">were</governor>
+            <dependent idx="3">Democrats</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">Democrats</governor>
+            <dependent idx="5">Republicans</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">were</governor>
+            <dependent idx="5">Republicans</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="6">were</governor>
+            <dependent idx="7">there</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Senate</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">were</governor>
+            <dependent idx="10">Senate</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>Republicans</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>Republicans</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>14</start>
+          <end>15</end>
+          <head>14</head>
+          <text>434</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>13</end>
+          <head>3</head>
+          <text>The total number of Democrats and Republicans in the House of Representatives</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>Democrats</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>Democrats</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

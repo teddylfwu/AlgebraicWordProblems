@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>sum</word>
+            <lemma>sum</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>two</word>
+            <lemma>two</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>consecutive</word>
+            <lemma>consecutive</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>even</word>
+            <lemma>even</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>integers</word>
+            <lemma>integer</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>most</word>
+            <lemma>most</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>30</word>
+            <lemma>30</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>&lt;30.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN sum)) (PP (IN of) (NP (CD two) (ADJP (JJ consecutive) (RB even)) (NNS integers)))) (VP (VBZ is) (NP (QP (XS (IN at) (JJS most)) (CD 30)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">30</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sum</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">30</governor>
+            <dependent idx="2">sum</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">sum</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">integers</governor>
+            <dependent idx="4">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">integers</governor>
+            <dependent idx="5">consecutive</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">consecutive</governor>
+            <dependent idx="6">even</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="7">integers</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">30</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="11">30</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="9">at</governor>
+            <dependent idx="10">most</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">30</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sum</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">30</governor>
+            <dependent idx="2">sum</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">integers</governor>
+            <dependent idx="4">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">integers</governor>
+            <dependent idx="5">consecutive</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">consecutive</governor>
+            <dependent idx="6">even</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">sum</governor>
+            <dependent idx="7">integers</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">30</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="11">30</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="9">at</governor>
+            <dependent idx="10">most</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">30</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sum</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">30</governor>
+            <dependent idx="2">sum</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">integers</governor>
+            <dependent idx="4">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">integers</governor>
+            <dependent idx="5">consecutive</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">consecutive</governor>
+            <dependent idx="6">even</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">sum</governor>
+            <dependent idx="7">integers</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">30</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="11">30</governor>
+            <dependent idx="9">at</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="9">at</governor>
+            <dependent idx="10">most</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>What</word>
+            <lemma>what</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>greatest</word>
+            <lemma>greatest</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>possible</word>
+            <lemma>possible</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>consecutive</word>
+            <lemma>consecutive</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>even</word>
+            <lemma>even</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>integers</word>
+            <lemma>integer</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WP What)) (VBP are) (NP (DT the) (ADJP (JJS greatest) (JJ possible)) (NP (NP (JJ consecutive)) (NP (RB even) (NNS integers)))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">What</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="1">What</governor>
+            <dependent idx="2">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">consecutive</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">possible</governor>
+            <dependent idx="4">greatest</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">consecutive</governor>
+            <dependent idx="5">possible</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">What</governor>
+            <dependent idx="6">consecutive</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">integers</governor>
+            <dependent idx="7">even</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">consecutive</governor>
+            <dependent idx="8">integers</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">What</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="1">What</governor>
+            <dependent idx="2">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">consecutive</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">possible</governor>
+            <dependent idx="4">greatest</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">consecutive</governor>
+            <dependent idx="5">possible</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">What</governor>
+            <dependent idx="6">consecutive</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">integers</governor>
+            <dependent idx="7">even</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">consecutive</governor>
+            <dependent idx="8">integers</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">What</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="1">What</governor>
+            <dependent idx="2">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">consecutive</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">possible</governor>
+            <dependent idx="4">greatest</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">consecutive</governor>
+            <dependent idx="5">possible</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">What</governor>
+            <dependent idx="6">consecutive</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">integers</governor>
+            <dependent idx="7">even</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">consecutive</governor>
+            <dependent idx="8">integers</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>12</end>
+          <head>11</head>
+          <text>at most 30</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>8</end>
+          <head>2</head>
+          <text>The sum of two consecutive even integers</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>4</start>
+          <end>8</end>
+          <head>7</head>
+          <text>two consecutive even integers</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>8</head>
+          <text>even integers</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

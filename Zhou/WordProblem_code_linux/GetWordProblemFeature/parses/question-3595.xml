@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>2</word>
+            <lemma>2</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>start</word>
+            <lemma>start</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>same</word>
+            <lemma>same</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>place</word>
+            <lemma>place</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>time</word>
+            <lemma>time</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>travel</word>
+            <lemma>travel</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>opposite</word>
+            <lemma>opposite</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>directions</word>
+            <lemma>direction</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (CD 2) (NNS cars)) (VP (VBP start) (PP (IN at) (NP (NP (NP (DT the) (JJ same) (NN place)) (CC and) (NP (NN time))) (, ,) (CC and) (NP (NP (NN travel)) (PP (IN in) (NP (JJ opposite) (NNS directions))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">start</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">cars</governor>
+            <dependent idx="1">2</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">start</governor>
+            <dependent idx="2">cars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">start</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">place</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">place</governor>
+            <dependent idx="6">same</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">at</governor>
+            <dependent idx="7">place</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">place</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">place</governor>
+            <dependent idx="9">time</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">place</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">place</governor>
+            <dependent idx="12">travel</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">travel</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">directions</governor>
+            <dependent idx="14">opposite</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">in</governor>
+            <dependent idx="15">directions</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">start</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">cars</governor>
+            <dependent idx="1">2</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">start</governor>
+            <dependent idx="2">cars</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">place</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">place</governor>
+            <dependent idx="6">same</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="3">start</governor>
+            <dependent idx="7">place</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">place</governor>
+            <dependent idx="9">time</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">place</governor>
+            <dependent idx="12">travel</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">directions</governor>
+            <dependent idx="14">opposite</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">travel</governor>
+            <dependent idx="15">directions</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">start</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">cars</governor>
+            <dependent idx="1">2</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">start</governor>
+            <dependent idx="2">cars</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">place</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">place</governor>
+            <dependent idx="6">same</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="3">start</governor>
+            <dependent idx="7">place</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="3">start</governor>
+            <dependent idx="9">time</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">place</governor>
+            <dependent idx="9">time</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="3">start</governor>
+            <dependent idx="12">travel</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">place</governor>
+            <dependent idx="12">travel</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">directions</governor>
+            <dependent idx="14">opposite</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">travel</governor>
+            <dependent idx="15">directions</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>One</word>
+            <lemma>one</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>traveling</word>
+            <lemma>travel</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>15</word>
+            <lemma>15</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>15.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>kilometers</word>
+            <lemma>kilometer</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>per</word>
+            <lemma>per</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>hour</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT1H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT1H</Timex>
+          </token>
+          <token id="9">
+            <word>faster</word>
+            <lemma>faster</lemma>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>RBR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>other</word>
+            <lemma>other</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (CD One) (NN car)) (VP (VBZ is) (VP (VBG traveling) (NP (NP (CD 15) (NNS kilometers)) (PP (IN per) (NP (NN hour)))) (ADVP (RBR faster)) (PP (IN than) (NP (DT the) (JJ other))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">traveling</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">car</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">traveling</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">traveling</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">kilometers</governor>
+            <dependent idx="5">15</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">traveling</governor>
+            <dependent idx="6">kilometers</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">kilometers</governor>
+            <dependent idx="7">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">per</governor>
+            <dependent idx="8">hour</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">traveling</governor>
+            <dependent idx="9">faster</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">traveling</governor>
+            <dependent idx="10">than</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">other</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">than</governor>
+            <dependent idx="12">other</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">traveling</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">car</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">traveling</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">traveling</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">kilometers</governor>
+            <dependent idx="5">15</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">traveling</governor>
+            <dependent idx="6">kilometers</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="6">kilometers</governor>
+            <dependent idx="8">hour</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">traveling</governor>
+            <dependent idx="9">faster</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">other</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="4">traveling</governor>
+            <dependent idx="12">other</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">traveling</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">car</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">traveling</governor>
+            <dependent idx="2">car</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">traveling</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">kilometers</governor>
+            <dependent idx="5">15</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">traveling</governor>
+            <dependent idx="6">kilometers</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="6">kilometers</governor>
+            <dependent idx="8">hour</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">traveling</governor>
+            <dependent idx="9">faster</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">other</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="4">traveling</governor>
+            <dependent idx="12">other</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>After</word>
+            <lemma>after</lemma>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>5</word>
+            <lemma>5</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT5H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT5H</Timex>
+          </token>
+          <token id="3">
+            <word>hours</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT5H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT5H</Timex>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>2</word>
+            <lemma>2</lemma>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>165</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>275</word>
+            <lemma>275</lemma>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>275.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>km</word>
+            <lemma>km</lemma>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>apart</word>
+            <lemma>apart</lemma>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>188</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN After) (NP (CD 5) (NNS hours))) (, ,) (NP (DT the) (CD 2) (NNS cars)) (VP (VBP are) (ADVP (NP (CD 275) (NN km)) (RB apart))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">are</governor>
+            <dependent idx="1">After</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">hours</governor>
+            <dependent idx="2">5</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">After</governor>
+            <dependent idx="3">hours</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">cars</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">cars</governor>
+            <dependent idx="6">2</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">are</governor>
+            <dependent idx="7">cars</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">km</governor>
+            <dependent idx="9">275</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">apart</governor>
+            <dependent idx="10">km</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">are</governor>
+            <dependent idx="11">apart</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">are</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">hours</governor>
+            <dependent idx="2">5</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="8">are</governor>
+            <dependent idx="3">hours</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">cars</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">cars</governor>
+            <dependent idx="6">2</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">are</governor>
+            <dependent idx="7">cars</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">km</governor>
+            <dependent idx="9">275</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">apart</governor>
+            <dependent idx="10">km</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">are</governor>
+            <dependent idx="11">apart</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">are</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">hours</governor>
+            <dependent idx="2">5</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="8">are</governor>
+            <dependent idx="3">hours</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">cars</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">cars</governor>
+            <dependent idx="6">2</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">are</governor>
+            <dependent idx="7">cars</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">km</governor>
+            <dependent idx="9">275</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">apart</governor>
+            <dependent idx="10">km</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">are</governor>
+            <dependent idx="11">apart</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>Find</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>189</CharacterOffsetBegin>
+            <CharacterOffsetEnd>193</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>194</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>speed</word>
+            <lemma>speed</lemma>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>203</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>204</CharacterOffsetBegin>
+            <CharacterOffsetEnd>206</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>each</word>
+            <lemma>each</lemma>
+            <CharacterOffsetBegin>207</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>car</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>215</CharacterOffsetBegin>
+            <CharacterOffsetEnd>216</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VB Find) (NP (NP (DT the) (NN speed)) (PP (IN of) (NP (DT each) (NN car))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">speed</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">speed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">speed</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">car</governor>
+            <dependent idx="5">each</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="6">car</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">speed</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">speed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">car</governor>
+            <dependent idx="5">each</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">speed</governor>
+            <dependent idx="6">car</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">speed</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Find</governor>
+            <dependent idx="3">speed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">car</governor>
+            <dependent idx="5">each</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">speed</governor>
+            <dependent idx="6">car</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>2</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>2</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>3</sentence>
+          <start>5</start>
+          <end>8</end>
+          <head>7</head>
+          <text>the 2 cars</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>2 cars</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

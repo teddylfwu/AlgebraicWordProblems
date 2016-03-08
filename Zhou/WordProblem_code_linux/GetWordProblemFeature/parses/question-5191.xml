@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>worker</word>
+            <lemma>worker</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>gets</word>
+            <lemma>get</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>60</word>
+            <lemma>60</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.6</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>cents</word>
+            <lemma>cent</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.6</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT1H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT1H</Timex>
+          </token>
+          <token id="7">
+            <word>hour</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT1H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT1H</Timex>
+          </token>
+          <token id="8">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>ordinary</word>
+            <lemma>ordinary</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>time</word>
+            <lemma>time</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>90</word>
+            <lemma>90</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.9</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>cents</word>
+            <lemma>cent</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.9</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT1H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT1H</Timex>
+          </token>
+          <token id="15">
+            <word>hour</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT1H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT1H</Timex>
+          </token>
+          <token id="16">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>overtime</word>
+            <lemma>overtime</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT A) (NN worker)) (VP (VBZ gets) (ADVP (ADVP (NP (CD 60) (NNS cents)) (NP (NP (DT an) (NN hour)) (PP (IN for) (NP (JJ ordinary) (NN time))))) (CC and) (ADVP (NP (CD 90) (NNS cents)) (NP (NP (DT an) (NN hour)) (PP (IN for) (NP (NN overtime))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">worker</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">gets</governor>
+            <dependent idx="2">worker</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">cents</governor>
+            <dependent idx="4">60</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">hour</governor>
+            <dependent idx="5">cents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">hour</governor>
+            <dependent idx="6">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">gets</governor>
+            <dependent idx="7">hour</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">hour</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">time</governor>
+            <dependent idx="9">ordinary</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">for</governor>
+            <dependent idx="10">time</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">hour</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">cents</governor>
+            <dependent idx="12">90</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">hour</governor>
+            <dependent idx="13">cents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">hour</governor>
+            <dependent idx="14">an</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">hour</governor>
+            <dependent idx="15">hour</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">hour</governor>
+            <dependent idx="16">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">for</governor>
+            <dependent idx="17">overtime</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">worker</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">gets</governor>
+            <dependent idx="2">worker</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">cents</governor>
+            <dependent idx="4">60</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">hour</governor>
+            <dependent idx="5">cents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">hour</governor>
+            <dependent idx="6">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">gets</governor>
+            <dependent idx="7">hour</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">time</governor>
+            <dependent idx="9">ordinary</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">hour</governor>
+            <dependent idx="10">time</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">cents</governor>
+            <dependent idx="12">90</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">hour</governor>
+            <dependent idx="13">cents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">hour</governor>
+            <dependent idx="14">an</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">hour</governor>
+            <dependent idx="15">hour</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">hour</governor>
+            <dependent idx="17">overtime</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">worker</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">gets</governor>
+            <dependent idx="2">worker</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">cents</governor>
+            <dependent idx="4">60</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">hour</governor>
+            <dependent idx="5">cents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">hour</governor>
+            <dependent idx="6">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">gets</governor>
+            <dependent idx="7">hour</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">time</governor>
+            <dependent idx="9">ordinary</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">hour</governor>
+            <dependent idx="10">time</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">cents</governor>
+            <dependent idx="12">90</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">hour</governor>
+            <dependent idx="13">cents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">hour</governor>
+            <dependent idx="14">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">gets</governor>
+            <dependent idx="15">hour</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">hour</governor>
+            <dependent idx="15">hour</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">hour</governor>
+            <dependent idx="17">overtime</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>If</word>
+            <lemma>if</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>she</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>gets</word>
+            <lemma>get</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>32.40</word>
+            <lemma>32.40</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$32.4</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>dollars</word>
+            <lemma>dollar</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$32.4</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>50</word>
+            <lemma>50</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT50H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT50H</Timex>
+          </token>
+          <token id="9">
+            <word>hour</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT50H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT50H</Timex>
+          </token>
+          <token id="10">
+            <word>week</word>
+            <lemma>week</lemma>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT50H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DURATION">P1W</Timex>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>how</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>hours</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PTXH</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t4" type="DURATION">PTXH</Timex>
+          </token>
+          <token id="15">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>overtime</word>
+            <lemma>overtime</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (SBAR (IN If) (S (NP (PRP she)) (VP (VBZ gets) (NP (NP (CD 32.40) (NNS dollars)) (PP (IN for) (NP (DT a) (CD 50) (NN hour) (NN week))))))) (, ,) (WHNP (WHADJP (WRB how) (JJ many)) (NNS hours)) (SQ (VBP are) (NP (RB overtime))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">are</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">gets</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">gets</governor>
+            <dependent idx="2">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="15">are</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dollars</governor>
+            <dependent idx="4">32.40</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">gets</governor>
+            <dependent idx="5">dollars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">dollars</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">week</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">week</governor>
+            <dependent idx="8">50</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">week</governor>
+            <dependent idx="9">hour</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">for</governor>
+            <dependent idx="10">week</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">many</governor>
+            <dependent idx="12">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">hours</governor>
+            <dependent idx="13">many</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">are</governor>
+            <dependent idx="14">hours</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">are</governor>
+            <dependent idx="16">overtime</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">are</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">gets</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">gets</governor>
+            <dependent idx="2">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="15">are</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dollars</governor>
+            <dependent idx="4">32.40</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">gets</governor>
+            <dependent idx="5">dollars</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">week</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">week</governor>
+            <dependent idx="8">50</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">week</governor>
+            <dependent idx="9">hour</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">dollars</governor>
+            <dependent idx="10">week</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">many</governor>
+            <dependent idx="12">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">hours</governor>
+            <dependent idx="13">many</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">are</governor>
+            <dependent idx="14">hours</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">are</governor>
+            <dependent idx="16">overtime</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">are</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">gets</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">gets</governor>
+            <dependent idx="2">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="15">are</governor>
+            <dependent idx="3">gets</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dollars</governor>
+            <dependent idx="4">32.40</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">gets</governor>
+            <dependent idx="5">dollars</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">week</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">week</governor>
+            <dependent idx="8">50</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">week</governor>
+            <dependent idx="9">hour</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">dollars</governor>
+            <dependent idx="10">week</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">many</governor>
+            <dependent idx="12">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">hours</governor>
+            <dependent idx="13">many</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">are</governor>
+            <dependent idx="14">hours</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">are</governor>
+            <dependent idx="16">overtime</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

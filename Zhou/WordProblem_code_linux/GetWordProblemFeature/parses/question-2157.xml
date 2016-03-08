@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>takes</word>
+            <lemma>take</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>boat</word>
+            <lemma>boat</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>4</word>
+            <lemma>4</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT4H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT4H</Timex>
+          </token>
+          <token id="6">
+            <word>hours</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT4H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT4H</Timex>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>travel</word>
+            <lemma>travel</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>24</word>
+            <lemma>24</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>24.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>miles</word>
+            <lemma>mile</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>down</word>
+            <lemma>down</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>river</word>
+            <lemma>river</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>6</word>
+            <lemma>6</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT6H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT6H</Timex>
+          </token>
+          <token id="16">
+            <word>hours</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT6H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PT6H</Timex>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>return</word>
+            <lemma>return</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>upstream</word>
+            <lemma>upstream</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>its</word>
+            <lemma>its</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>starting</word>
+            <lemma>start</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>point</word>
+            <lemma>point</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VBZ takes) (S (NP (NP (DT a) (NN boat)) (NP-TMP (CD 4) (NNS hours))) (VP (TO to) (VP (VB travel) (NP (NP (ADVP (NP (CD 24) (NNS miles)) (RB down)) (DT a) (NN river)) (CC and) (NP (CD 6) (NNS hours))) (S (VP (TO to) (VP (VB return) (NP (JJ upstream)) (PP (TO to) (NP (PRP$ its) (VBG starting) (NN point)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">takes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">takes</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">boat</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">travel</governor>
+            <dependent idx="4">boat</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">hours</governor>
+            <dependent idx="5">4</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">boat</governor>
+            <dependent idx="6">hours</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">travel</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">takes</governor>
+            <dependent idx="8">travel</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">miles</governor>
+            <dependent idx="9">24</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">down</governor>
+            <dependent idx="10">miles</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">river</governor>
+            <dependent idx="11">down</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">river</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">travel</governor>
+            <dependent idx="13">river</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">river</governor>
+            <dependent idx="14">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">hours</governor>
+            <dependent idx="15">6</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="13">river</governor>
+            <dependent idx="16">hours</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">return</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">travel</governor>
+            <dependent idx="18">return</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">return</governor>
+            <dependent idx="19">upstream</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">return</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="23">point</governor>
+            <dependent idx="21">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">point</governor>
+            <dependent idx="22">starting</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">to</governor>
+            <dependent idx="23">point</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">takes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">takes</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">boat</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">travel</governor>
+            <dependent idx="4">boat</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">hours</governor>
+            <dependent idx="5">4</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">boat</governor>
+            <dependent idx="6">hours</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">travel</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">takes</governor>
+            <dependent idx="8">travel</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">miles</governor>
+            <dependent idx="9">24</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">down</governor>
+            <dependent idx="10">miles</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">river</governor>
+            <dependent idx="11">down</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">river</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">travel</governor>
+            <dependent idx="13">river</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">hours</governor>
+            <dependent idx="15">6</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">river</governor>
+            <dependent idx="16">hours</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">return</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">travel</governor>
+            <dependent idx="18">return</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">return</governor>
+            <dependent idx="19">upstream</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="23">point</governor>
+            <dependent idx="21">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">point</governor>
+            <dependent idx="22">starting</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="18">return</governor>
+            <dependent idx="23">point</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">takes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">takes</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">boat</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">travel</governor>
+            <dependent idx="4">boat</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">hours</governor>
+            <dependent idx="5">4</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">boat</governor>
+            <dependent idx="6">hours</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">travel</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">takes</governor>
+            <dependent idx="8">travel</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">miles</governor>
+            <dependent idx="9">24</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">down</governor>
+            <dependent idx="10">miles</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">river</governor>
+            <dependent idx="11">down</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">river</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">travel</governor>
+            <dependent idx="13">river</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">hours</governor>
+            <dependent idx="15">6</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">travel</governor>
+            <dependent idx="16">hours</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">river</governor>
+            <dependent idx="16">hours</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">return</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">travel</governor>
+            <dependent idx="18">return</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">return</governor>
+            <dependent idx="19">upstream</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="23">point</governor>
+            <dependent idx="21">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">point</governor>
+            <dependent idx="22">starting</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="18">return</governor>
+            <dependent idx="23">point</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>What</word>
+            <lemma>what</lemma>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>rate</word>
+            <lemma>rate</lemma>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>current</word>
+            <lemma>current</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>PRESENT_REF</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DATE">PRESENT_REF</Timex>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>river</word>
+            <lemma>river</lemma>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WP What)) (VBZ is) (NP (NP (DT the) (NN rate)) (PP (IN of) (NP (NP (DT the) (JJ current)) (PP (IN in) (NP (DT the) (NN river)))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">What</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="1">What</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">rate</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">What</governor>
+            <dependent idx="4">rate</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">rate</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">current</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">of</governor>
+            <dependent idx="7">current</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">current</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">river</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="10">river</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">What</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="1">What</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">rate</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">What</governor>
+            <dependent idx="4">rate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">current</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="4">rate</governor>
+            <dependent idx="7">current</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">river</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">current</governor>
+            <dependent idx="10">river</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">What</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="1">What</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">rate</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="1">What</governor>
+            <dependent idx="4">rate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">current</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="4">rate</governor>
+            <dependent idx="7">current</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">river</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">current</governor>
+            <dependent idx="10">river</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>14</end>
+          <head>13</head>
+          <text>24 miles down a river</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>9</start>
+          <end>11</end>
+          <head>10</head>
+          <text>the river</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>19</start>
+          <end>20</end>
+          <head>19</head>
+          <text>upstream</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>21</start>
+          <end>22</end>
+          <head>21</head>
+          <text>its</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

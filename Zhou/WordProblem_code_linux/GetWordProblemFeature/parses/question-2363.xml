@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>During</word>
+            <lemma>during</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>sale</word>
+            <lemma>sale</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>automobile</word>
+            <lemma>automobile</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>dealer</word>
+            <lemma>dealer</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>sold</word>
+            <lemma>sell</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>69</word>
+            <lemma>69</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>69.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>trucks</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN During) (NP (DT a) (NN sale))) (NP (DT an) (NN automobile) (NN dealer)) (VP (VBD sold) (NP (CD 69) (NNS cars) (CC and) (NNS trucks))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">sold</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">sold</governor>
+            <dependent idx="1">During</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">sale</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">During</governor>
+            <dependent idx="3">sale</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">dealer</governor>
+            <dependent idx="4">an</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">dealer</governor>
+            <dependent idx="5">automobile</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">sold</governor>
+            <dependent idx="6">dealer</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="9">cars</governor>
+            <dependent idx="8">69</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">sold</governor>
+            <dependent idx="9">cars</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">cars</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">cars</governor>
+            <dependent idx="11">trucks</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">sold</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">sale</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="prep_during">
+            <governor idx="7">sold</governor>
+            <dependent idx="3">sale</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">dealer</governor>
+            <dependent idx="4">an</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">dealer</governor>
+            <dependent idx="5">automobile</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">sold</governor>
+            <dependent idx="6">dealer</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="9">cars</governor>
+            <dependent idx="8">69</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">sold</governor>
+            <dependent idx="9">cars</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">cars</governor>
+            <dependent idx="11">trucks</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">sold</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">sale</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="prep_during">
+            <governor idx="7">sold</governor>
+            <dependent idx="3">sale</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">dealer</governor>
+            <dependent idx="4">an</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">dealer</governor>
+            <dependent idx="5">automobile</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">sold</governor>
+            <dependent idx="6">dealer</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="9">cars</governor>
+            <dependent idx="8">69</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">sold</governor>
+            <dependent idx="9">cars</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">sold</governor>
+            <dependent idx="11">trucks</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">cars</governor>
+            <dependent idx="11">trucks</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>If</word>
+            <lemma>if</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>she</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>sold</word>
+            <lemma>sell</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>27</word>
+            <lemma>27</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>27.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>cars</word>
+            <lemma>car</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>trucks</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>how</word>
+            <lemma>how</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>many</word>
+            <lemma>many</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>trucks</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>did</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>she</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>sell</word>
+            <lemma>sell</lemma>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>?</word>
+            <lemma>?</lemma>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (SBAR (IN If) (S (NP (PRP she)) (VP (VBD sold) (NP (CD 27) (JJR more) (NNS cars)) (PP (IN than) (NP (NNS trucks)))))) (WHNP (WHADJP (WRB how) (JJ many)) (NNS trucks)) (SQ (VP (VBD did) (S (NP (PRP she)) (VP (VB sell))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">did</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">sold</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">sold</governor>
+            <dependent idx="2">she</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">did</governor>
+            <dependent idx="3">sold</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">cars</governor>
+            <dependent idx="4">27</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">cars</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">sold</governor>
+            <dependent idx="6">cars</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">sold</governor>
+            <dependent idx="7">than</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">than</governor>
+            <dependent idx="8">trucks</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">many</governor>
+            <dependent idx="9">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">trucks</governor>
+            <dependent idx="10">many</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">did</governor>
+            <dependent idx="11">trucks</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">sell</governor>
+            <dependent idx="13">she</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">did</governor>
+            <dependent idx="14">sell</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">did</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">sold</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">sold</governor>
+            <dependent idx="2">she</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">did</governor>
+            <dependent idx="3">sold</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">cars</governor>
+            <dependent idx="4">27</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">cars</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">sold</governor>
+            <dependent idx="6">cars</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="3">sold</governor>
+            <dependent idx="8">trucks</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">many</governor>
+            <dependent idx="9">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">trucks</governor>
+            <dependent idx="10">many</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">did</governor>
+            <dependent idx="11">trucks</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">sell</governor>
+            <dependent idx="13">she</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">did</governor>
+            <dependent idx="14">sell</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">did</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">sold</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">sold</governor>
+            <dependent idx="2">she</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">did</governor>
+            <dependent idx="3">sold</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">cars</governor>
+            <dependent idx="4">27</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">cars</governor>
+            <dependent idx="5">more</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">sold</governor>
+            <dependent idx="6">cars</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="3">sold</governor>
+            <dependent idx="8">trucks</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">many</governor>
+            <dependent idx="9">how</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">trucks</governor>
+            <dependent idx="10">many</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">did</governor>
+            <dependent idx="11">trucks</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">sell</governor>
+            <dependent idx="13">she</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">did</governor>
+            <dependent idx="14">sell</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>2</start>
+          <end>3</end>
+          <head>2</head>
+          <text>she</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>13</start>
+          <end>14</end>
+          <head>13</head>
+          <text>she</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>
